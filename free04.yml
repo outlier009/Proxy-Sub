@@ -72,10 +72,6 @@ proxies:
   - {name: 🇹🇼 22, server: 103.152.151.85, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
   - {name: 🇹🇼 23, server: 2.58.241.29, port: 38033, type: ss, cipher: aes-256-gcm, password: xpQwyV4W5FdA6NMANJJx73US}
   - {name: 🇹🇼 24, server: 2.58.242.45, port: 38033, type: ss, cipher: aes-256-gcm, password: xpQwyV4W5FdA6NMANJJx73US}
-  - {name: 🇺🇲 BGP美国7, server: cf7.cdnuk.xyz, port: 80, type: vmess, uuid: 3b7082d7-038b-49d2-b70a-a145a70f2b9b, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: a.cdnuk.xyz}}
-  - {name: 🇺🇲 BGP美国8, server: cf8.cdnuk.xyz, port: 80, type: vmess, uuid: 3b7082d7-038b-49d2-b70a-a145a70f2b9b, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: a.cdnuk.xyz}}
-  - {name: 🇺🇲 BGP美国9, server: cf9.cdnuk.xyz, port: 80, type: vmess, uuid: 3b7082d7-038b-49d2-b70a-a145a70f2b9b, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: a.cdnuk.xyz}}
-  - {name: 🇭🇰 香港AWS1-电信联通, server: aa0cc445ddab5c14f.awsglobalaccelerator.com, port: 8080, type: vmess, uuid: 68e6598c-a666-4a2c-af60-6fd0fc6f0094, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: aa0cc445ddab5c14f.awsglobalaccelerator.com}}
   - {name: "🇨🇦 [电信]加拿大 01", server: blx.hkaga.dnsairport.tk, port: 50005, type: vmess, uuid: 1217d3af-dcbf-3142-a884-15f908f9a677, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /blxnet, ws-headers: {Host: 142.93.158.228}}
   - {name: "🇮🇳 [电信]印度 01", server: blx.hkaga.dnsairport.tk, port: 50004, type: vmess, uuid: 1217d3af-dcbf-3142-a884-15f908f9a677, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /blxnet, ws-headers: {Host: 139.59.93.233}}
   - {name: "🇩🇪 [电信]德国 01", server: blx.hkaga.dnsairport.tk, port: 50007, type: vmess, uuid: 1217d3af-dcbf-3142-a884-15f908f9a677, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /blxnet, ws-headers: {Host: 165.227.134.209}}
@@ -83,7 +79,6 @@ proxies:
   - {name: "🇸🇬 [电信]新加坡 02", server: blx.hkaga.dnsairport.tk, port: 50012, type: vmess, uuid: 1217d3af-dcbf-3142-a884-15f908f9a677, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /blxnet, ws-headers: {Host: 159.65.137.224}}
   - {name: "🇸🇬 [电信]新加坡 03", server: blx.hkaga.dnsairport.tk, port: 50023, type: vmess, uuid: 1217d3af-dcbf-3142-a884-15f908f9a677, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /blxnet, ws-headers: {Host: 3.1.203.12}}
   - {name: "🇸🇬 [电信]新加坡 04", server: blx.hkaga.dnsairport.tk, port: 50024, type: vmess, uuid: 1217d3af-dcbf-3142-a884-15f908f9a677, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /blxnet, ws-headers: {Host: 54.254.197.152}}
-  - {name: "🇯🇵 [电信]日本 01", server: blx.hkaga.dnsairport.tk, port: 50020, type: vmess, uuid: 1217d3af-dcbf-3142-a884-15f908f9a677, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /blxnet, ws-headers: {Host: 54.95.28.8}}
   - {name: "🇺🇲 [电信]美国 01", server: blx.hkaga.dnsairport.tk, port: 50006, type: vmess, uuid: 1217d3af-dcbf-3142-a884-15f908f9a677, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /blxnet, ws-headers: {Host: 159.203.172.141}}
   - {name: "🇺🇲 [电信]美国 02", server: blx.hkaga.dnsairport.tk, port: 50008, type: vmess, uuid: 1217d3af-dcbf-3142-a884-15f908f9a677, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /blxnet, ws-headers: {Host: 167.99.12.27}}
   - {name: "🇺🇲 [电信]美国 03", server: blx.hkaga.dnsairport.tk, port: 50011, type: vmess, uuid: 1217d3af-dcbf-3142-a884-15f908f9a677, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /blxnet, ws-headers: {Host: 104.236.40.87}}
@@ -95,8 +90,6 @@ proxies:
   - {name: "🇳🇱 [电信]荷兰 02", server: blx.hkaga.dnsairport.tk, port: 50015, type: vmess, uuid: 1217d3af-dcbf-3142-a884-15f908f9a677, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /blxnet, ws-headers: {Host: 188.166.45.203}}
   - {name: "🇰🇷 [电信]韩国 01", server: blx.hkaga.dnsairport.tk, port: 50019, type: vmess, uuid: 1217d3af-dcbf-3142-a884-15f908f9a677, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /blxnet, ws-headers: {Host: 3.34.181.12}}
   - {name: "🇭🇰 [电信]香港 01", server: blx.hkaga.dnsairport.tk, port: 50022, type: vmess, uuid: 1217d3af-dcbf-3142-a884-15f908f9a677, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /blxnet, ws-headers: {Host: 18.166.236.67}}
-  - {name: "🇭🇰 [电信]香港 02", server: 75.2.46.10, port: 80, type: vmess, uuid: 1217d3af-dcbf-3142-a884-15f908f9a677, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /blxnet, ws-headers: {Host: 75.2.46.10}}
-  - {name: "🇭🇰 [电信]香港 03", server: 99.83.238.202, port: 443, type: vmess, uuid: 1217d3af-dcbf-3142-a884-15f908f9a677, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /blxnet, ws-headers: {Host: 99.83.238.202}}
   - {name: "🇨🇦 [联通]加拿大 01", server: blx.hkaz.dnsairport.tk, port: 50027, type: vmess, uuid: 1217d3af-dcbf-3142-a884-15f908f9a677, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /blxnet, ws-headers: {Host: 142.93.158.228}}
   - {name: "🇮🇳 [联通]印度 01", server: blx.hkaz.dnsairport.tk, port: 50026, type: vmess, uuid: 1217d3af-dcbf-3142-a884-15f908f9a677, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /blxnet, ws-headers: {Host: 139.59.93.233}}
   - {name: "🇩🇪 [联通]德国 01", server: blx.hkaz.dnsairport.tk, port: 50029, type: vmess, uuid: 1217d3af-dcbf-3142-a884-15f908f9a677, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /blxnet, ws-headers: {Host: 165.227.134.209}}
@@ -104,7 +97,6 @@ proxies:
   - {name: "🇸🇬 [联通]新加坡 02", server: 54.254.197.152, port: 443, type: vmess, uuid: 1217d3af-dcbf-3142-a884-15f908f9a677, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /blxnet, ws-headers: {Host: 54.254.197.152}}
   - {name: "🇸🇬 [联通]新加坡 03", server: blx.hkaz.dnsairport.tk, port: 50025, type: vmess, uuid: 1217d3af-dcbf-3142-a884-15f908f9a677, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /blxnet, ws-headers: {Host: 134.209.105.32}}
   - {name: "🇸🇬 [联通]新加坡 04", server: blx.hkaz.dnsairport.tk, port: 50034, type: vmess, uuid: 1217d3af-dcbf-3142-a884-15f908f9a677, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /blxnet, ws-headers: {Host: 159.65.137.224}}
-  - {name: "🇯🇵 [联通]日本 01", server: 54.95.28.8, port: 443, type: vmess, uuid: 1217d3af-dcbf-3142-a884-15f908f9a677, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /blxnet, ws-headers: {Host: 54.95.28.8}}
   - {name: "🇺🇲 [联通]美国 01", server: blx.hkaz.dnsairport.tk, port: 50028, type: vmess, uuid: 1217d3af-dcbf-3142-a884-15f908f9a677, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /blxnet, ws-headers: {Host: 159.203.172.141}}
   - {name: "🇺🇲 [联通]美国 02", server: blx.hkaz.dnsairport.tk, port: 50030, type: vmess, uuid: 1217d3af-dcbf-3142-a884-15f908f9a677, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /blxnet, ws-headers: {Host: 167.99.12.27}}
   - {name: "🇺🇲 [联通]美国 03", server: blx.hkaz.dnsairport.tk, port: 50033, type: vmess, uuid: 1217d3af-dcbf-3142-a884-15f908f9a677, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /blxnet, ws-headers: {Host: 104.236.40.87}}
@@ -116,55 +108,78 @@ proxies:
   - {name: "🇳🇱 [联通]荷兰 02", server: blx.hkaz.dnsairport.tk, port: 50037, type: vmess, uuid: 1217d3af-dcbf-3142-a884-15f908f9a677, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /blxnet, ws-headers: {Host: 188.166.45.203}}
   - {name: "🇰🇷 [联通]韩国 01", server: 3.34.181.12, port: 443, type: vmess, uuid: 1217d3af-dcbf-3142-a884-15f908f9a677, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /blxnet, ws-headers: {Host: 3.34.181.12}}
   - {name: "🇭🇰 [联通]香港 01", server: 18.166.236.67, port: 443, type: vmess, uuid: 1217d3af-dcbf-3142-a884-15f908f9a677, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /blxnet, ws-headers: {Host: 18.166.236.67}}
-  - {name: "🇭🇰 [联通]香港 02", server: 40.83.95.145, port: 443, type: vmess, uuid: 1217d3af-dcbf-3142-a884-15f908f9a677, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /blxnet, ws-headers: {Host: 40.83.95.145}}
   - {name: 🇨🇳 台湾01直连, server: 210.65.11.5, port: 2605, type: vmess, uuid: a683ce41-0b10-303c-9015-f5aa0df1f8f7, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /videos, ws-headers: {Host: xuexi.cn}}
-  - {name: 🇭🇰 粤港直连ULTRA, server: gz.yaode.ga, port: 10039, type: vmess, uuid: 9af58b1e-f07d-339b-adff-0a5dcfc01c4e, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: gz.yaode.ga}}
-  - {name: 🇭🇰 直连苏港ULTRA, server: 122.192.189.41, port: 11438, type: vmess, uuid: 9af58b1e-f07d-339b-adff-0a5dcfc01c4e, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 122.192.189.41}}
-  - {name: 🇿🇦 移动中转南非ULTTA, server: gz.yaode.ga, port: 10023, type: vmess, uuid: 9af58b1e-f07d-339b-adff-0a5dcfc01c4e, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: gz.yaode.ga}}
-  - {name: 🇨🇳 移动优化粤台, server: gz.yaode.ga, port: 10008, type: vmess, uuid: 9af58b1e-f07d-339b-adff-0a5dcfc01c4e, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: smtw.yaode.ga}}
-  - {name: 🇹🇷 粤美优化ULTRA, server: gz.yaode.ga, port: 10002, type: vmess, uuid: 9af58b1e-f07d-339b-adff-0a5dcfc01c4e, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: gz.yaode.ga}}
-  - {name: 🇺🇲 移动粤美优化, server: gz.yaode.ga, port: 10022, type: vmess, uuid: 9af58b1e-f07d-339b-adff-0a5dcfc01c4e, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: gz.yaode.ga}}
-  - {name: 🇰🇷 移动粤韩优化, server: gz.yaode.ga, port: 10031, type: vmess, uuid: 9af58b1e-f07d-339b-adff-0a5dcfc01c4e, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: gz.yaode.ga}}
-  - {name: 🇰🇷 移动粤韩优化2, server: gz.yaode.ga, port: 10032, type: vmess, uuid: 9af58b1e-f07d-339b-adff-0a5dcfc01c4e, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: gz.yaode.ga}}
-  - {name: 🇯🇵 移动苏日优化1, server: gz.yaode.ga, port: 10012, type: vmess, uuid: 9af58b1e-f07d-339b-adff-0a5dcfc01c4e, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: gz.yaode.ga}}
-  - {name: 🇯🇵 移动苏日优化2, server: gz.yaode.ga, port: 10013, type: vmess, uuid: 9af58b1e-f07d-339b-adff-0a5dcfc01c4e, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: gz.yaode.ga}}
-  - {name: 🇨🇳 台湾原生  | 广东中继 | Netflix&动画疯, server: gd.yd.fanfanyun1.club, port: 41005, type: vmess, uuid: cbaf7001-81ff-3109-b551-d0fc8874c728, alterId: 2, cipher: auto, tls: true}
-  - {name: 🇨🇳 台湾原生 02 | 广东中继 | Netflix&动画疯, server: gd.yd.fanfanyun1.club, port: 41006, type: vmess, uuid: cbaf7001-81ff-3109-b551-d0fc8874c728, alterId: 2, cipher: auto, tls: true}
-  - {name: 🇸🇬 新加坡 02 | 广东中继, server: gd.yd.fanfanyun1.club, port: 41008, type: vmess, uuid: cbaf7001-81ff-3109-b551-d0fc8874c728, alterId: 2, cipher: auto, tls: true}
-  - {name: 🇸🇬 新加坡原生 01 | 广东中继 | Netflix, server: gd.yd.fanfanyun1.club, port: 41007, type: vmess, uuid: cbaf7001-81ff-3109-b551-d0fc8874c728, alterId: 2, cipher: auto, tls: true}
-  - {name: 🇺🇲 美国01 | 广东中继, server: gd.yd.fanfanyun1.club, port: 41012, type: vmess, uuid: cbaf7001-81ff-3109-b551-d0fc8874c728, alterId: 2, cipher: auto, tls: true}
-  - {name: 🇭🇰 香港01 | 广东中继, server: gd.yd.fanfanyun1.club, port: 41001, type: vmess, uuid: cbaf7001-81ff-3109-b551-d0fc8874c728, alterId: 2, cipher: auto, tls: true}
-  - {name: 🇭🇰 香港02 | 广东中继, server: gd.yd.fanfanyun1.club, port: 41002, type: vmess, uuid: cbaf7001-81ff-3109-b551-d0fc8874c728, alterId: 2, cipher: auto, tls: true}
-  - {name: 🇭🇰 香港05 | 电信直连 | AGA专线 | x0.3, server: tcp.aga01.fanfanyun1.club, port: 12543, type: vmess, uuid: cbaf7001-81ff-3109-b551-d0fc8874c728, alterId: 2, cipher: auto, tls: true}
-  - {name: 🇭🇰 香港06 | 电信直连 | AGA专线 | x0.3, server: tcp.aga02.fanfanyun1.club, port: 12543, type: vmess, uuid: cbaf7001-81ff-3109-b551-d0fc8874c728, alterId: 2, cipher: auto, tls: true}
-  - {name: 🇭🇰 香港07 | 广东中继, server: gd.yd.fanfanyun1.club, port: 41010, type: vmess, uuid: cbaf7001-81ff-3109-b551-d0fc8874c728, alterId: 2, cipher: auto, tls: true}
-  - {name: 🇭🇰 香港08 | 广东中继, server: gd.yd.fanfanyun1.club, port: 41011, type: vmess, uuid: cbaf7001-81ff-3109-b551-d0fc8874c728, alterId: 2, cipher: auto, tls: true}
-  - {name: 🇸🇬 V1-新加坡AWS 03 AGA加速 1.0x, server: v1-aws-sg-03.tudog.me, port: 80, type: vmess, uuid: ac750bd3-6bc7-3881-a34f-b52bf22aadd6, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /tudog, ws-headers: {Host: v1-aws-sg-03.tudog.me}}
-  - {name: 🇸🇬 V1-新加坡AWS 06 AGA加速 1.0x, server: v1-aws-sg-06.tudog.me, port: 80, type: vmess, uuid: ac750bd3-6bc7-3881-a34f-b52bf22aadd6, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /tudog, ws-headers: {Host: v1-aws-sg-06.tudog.me}}
-  - {name: 🇯🇵 V1-日本AWS 06 AGA加速 1.0x, server: v1-aws-jp-06.tudog.me, port: 80, type: vmess, uuid: ac750bd3-6bc7-3881-a34f-b52bf22aadd6, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /tudog, ws-headers: {Host: v1-aws-jp-06.tudog.me}}
+  - {name: 🇭🇰 ⒈V2RAY 联通-中转-香港, server: v109.mxv2ssr.xyz, port: 41109, type: vmess, uuid: be313264-7d91-3cbb-9f17-0c4829e9f4ee, alterId: 2, cipher: auto, tls: false}
+  - {name: 🇸🇬 ⒉V2RAY 上海CN2-中转-新加坡, server: v110.mxv2ssr.xyz, port: 41110, type: vmess, uuid: be313264-7d91-3cbb-9f17-0c4829e9f4ee, alterId: 2, cipher: auto, tls: false}
+  - {name: 🇯🇵 ⒊V2RAY 电信-中转-日本, server: v111.mxv2ssr.xyz, port: 41111, type: vmess, uuid: be313264-7d91-3cbb-9f17-0c4829e9f4ee, alterId: 2, cipher: auto, tls: false}
+  - {name: 🇸🇬 ⒋V2RAY 广移-中转-新加坡, server: v112.mxv2ssr.xyz, port: 41112, type: vmess, uuid: be313264-7d91-3cbb-9f17-0c4829e9f4ee, alterId: 2, cipher: auto, tls: false}
+  - {name: 🇯🇵 ⒌V2RAY 上海-中转-日本, server: v113.mxv2ssr.xyz, port: 41113, type: vmess, uuid: be313264-7d91-3cbb-9f17-0c4829e9f4ee, alterId: 2, cipher: auto, tls: false}
+  - {name: 🇯🇵 ⒍V2RAY 广移-中转-日本, server: v114.mxv2ssr.xyz, port: 41114, type: vmess, uuid: be313264-7d91-3cbb-9f17-0c4829e9f4ee, alterId: 2, cipher: auto, tls: false}
+  - {name: 🇭🇰 ⒎V2RAY 广移-中转-香港, server: v115.mxv2ssr.xyz, port: 41115, type: vmess, uuid: be313264-7d91-3cbb-9f17-0c4829e9f4ee, alterId: 2, cipher: auto, tls: false}
+  - {name: 🇸🇬 ⒏V2RAY 联通-中转-新加坡, server: v117.mxv2ssr.xyz, port: 41117, type: vmess, uuid: be313264-7d91-3cbb-9f17-0c4829e9f4ee, alterId: 2, cipher: auto, tls: false}
+  - {name: 🇨🇳 ⒐V2RAY 上海CN2-中转-台湾Hinet-原生IP|Netflix, server: v118.mxv2ssr.xyz, port: 41118, type: vmess, uuid: be313264-7d91-3cbb-9f17-0c4829e9f4ee, alterId: 2, cipher: auto, tls: false}
+  - {name: 🇭🇰 ⒑V2RAY 上海CN2-中转-香港, server: v120.mxv2ssr.xyz, port: 41120, type: vmess, uuid: be313264-7d91-3cbb-9f17-0c4829e9f4ee, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: v120.mxv2ssr.xyz}}
+  - {name: 🇨🇳 ⒒V2RAY 广移-中转-台湾Hinet-原生IP|Netflix, server: v121.mxv2ssr.xyz, port: 41121, type: vmess, uuid: be313264-7d91-3cbb-9f17-0c4829e9f4ee, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: v121.mxv2ssr.xyz}}
+  - {name: 🇭🇰 vip-1香港1, server: 19.douluos.icu, port: 36119, type: vmess, uuid: 3fbdadd3-60b8-3f7c-a7c3-eee3eab85db2, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: 19.douluos.icu}}
+  - {name: 🇭🇰 vip-1香港10, server: 35.douluos.icu, port: 36135, type: vmess, uuid: 3fbdadd3-60b8-3f7c-a7c3-eee3eab85db2, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: 35.douluos.icu}}
+  - {name: 🇭🇰 vip-1香港9, server: 34.douluos.icu, port: 36134, type: vmess, uuid: 3fbdadd3-60b8-3f7c-a7c3-eee3eab85db2, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: 34.douluos.icu}}
+  - {name: 🇭🇰 vip-2香港2, server: 20.douluos.icu, port: 36120, type: vmess, uuid: 3fbdadd3-60b8-3f7c-a7c3-eee3eab85db2, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: 20.douluos.icu}}
+  - {name: 🇭🇰 vip-3香港3, server: 21.douluos.icu, port: 36121, type: vmess, uuid: 3fbdadd3-60b8-3f7c-a7c3-eee3eab85db2, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: 21.douluos.icu}}
+  - {name: 🇸🇬 vip-5新加坡, server: 40.douluos.icu, port: 36140, type: vmess, uuid: 3fbdadd3-60b8-3f7c-a7c3-eee3eab85db2, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: 40.douluos.icu}}
+  - {name: 🇸🇬 vip-6新加坡, server: 41.douluos.icu, port: 36141, type: vmess, uuid: 3fbdadd3-60b8-3f7c-a7c3-eee3eab85db2, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: 41.douluos.icu}}
+  - {name: 🇸🇬 vip-7新加坡, server: 42.douluos.icu, port: 36142, type: vmess, uuid: 3fbdadd3-60b8-3f7c-a7c3-eee3eab85db2, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: 42.douluos.icu}}
+  - {name: 🇸🇬 vip-8新加坡, server: 43.douluos.icu, port: 36143, type: vmess, uuid: 3fbdadd3-60b8-3f7c-a7c3-eee3eab85db2, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: 43.douluos.icu}}
+  - {name: 🇨🇦 vip-加拿大1, server: 44.douluos.icu, port: 36144, type: vmess, uuid: 3fbdadd3-60b8-3f7c-a7c3-eee3eab85db2, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: 44.douluos.icu}}
+  - {name: 🇨🇳 vip-台湾1解锁奈飞, server: 13.douluos.icu, port: 36113, type: vmess, uuid: 3fbdadd3-60b8-3f7c-a7c3-eee3eab85db2, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: 13.douluos.icu}}
+  - {name: 🇨🇳 vip-台湾3解锁奈飞, server: 15.douluos.icu, port: 36115, type: vmess, uuid: 3fbdadd3-60b8-3f7c-a7c3-eee3eab85db2, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: 15.douluos.icu}}
+  - {name: 🇨🇳 vip-台湾4解锁奈飞, server: 16.douluos.icu, port: 36116, type: vmess, uuid: 3fbdadd3-60b8-3f7c-a7c3-eee3eab85db2, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: 16.douluos.icu}}
+  - {name: 🇨🇳 vip-台湾5解锁奈飞, server: 17.douluos.icu, port: 36117, type: vmess, uuid: 3fbdadd3-60b8-3f7c-a7c3-eee3eab85db2, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: 17.douluos.icu}}
+  - {name: 🇨🇳 vip-台湾7解锁奈飞, server: 28.douluos.icu, port: 36128, type: vmess, uuid: 3fbdadd3-60b8-3f7c-a7c3-eee3eab85db2, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: 28.douluos.icu}}
+  - {name: 🇸🇬 vip-新加坡1, server: 26.douluos.icu, port: 36126, type: vmess, uuid: 3fbdadd3-60b8-3f7c-a7c3-eee3eab85db2, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: 26.douluos.icu}}
+  - {name: 🇸🇬 vip-新加坡2, server: 27.douluos.icu, port: 36127, type: vmess, uuid: 3fbdadd3-60b8-3f7c-a7c3-eee3eab85db2, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: 27.douluos.icu}}
+  - {name: 🇸🇬 vip-新加坡3, server: 38.douluos.icu, port: 36138, type: vmess, uuid: 3fbdadd3-60b8-3f7c-a7c3-eee3eab85db2, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: 38.douluos.icu}}
+  - {name: 🇸🇬 vip-新加坡4, server: 39.douluos.icu, port: 36139, type: vmess, uuid: 3fbdadd3-60b8-3f7c-a7c3-eee3eab85db2, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: 39.douluos.icu}}
+  - {name: 🇯🇵 vip-日本1, server: 1.douluos.icu, port: 36101, type: vmess, uuid: 3fbdadd3-60b8-3f7c-a7c3-eee3eab85db2, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: 1.douluos.icu}}
+  - {name: 🇯🇵 vip-日本10, server: 10.douluos.icu, port: 36110, type: vmess, uuid: 3fbdadd3-60b8-3f7c-a7c3-eee3eab85db2, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: 10.douluos.icu}}
+  - {name: 🇯🇵 vip-日本11, server: 11.douluos.icu, port: 36111, type: vmess, uuid: 3fbdadd3-60b8-3f7c-a7c3-eee3eab85db2, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: 11.douluos.icu}}
+  - {name: 🇯🇵 vip-日本12, server: 12.douluos.icu, port: 36112, type: vmess, uuid: 3fbdadd3-60b8-3f7c-a7c3-eee3eab85db2, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: 12.douluos.icu}}
+  - {name: 🇯🇵 vip-日本2, server: 2.douluos.icu, port: 36102, type: vmess, uuid: 3fbdadd3-60b8-3f7c-a7c3-eee3eab85db2, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: 2.douluos.icu}}
+  - {name: 🇯🇵 vip-日本3, server: 3.douluos.icu, port: 36103, type: vmess, uuid: 3fbdadd3-60b8-3f7c-a7c3-eee3eab85db2, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: 3.douluos.icu}}
+  - {name: 🇯🇵 vip-日本4, server: 4.douluos.icu, port: 36104, type: vmess, uuid: 3fbdadd3-60b8-3f7c-a7c3-eee3eab85db2, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: 4.douluos.icu}}
+  - {name: 🇯🇵 vip-日本5, server: 5.douluos.icu, port: 36105, type: vmess, uuid: 3fbdadd3-60b8-3f7c-a7c3-eee3eab85db2, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: 5.douluos.icu}}
+  - {name: 🇯🇵 vip-日本8, server: 8.douluos.icu, port: 36108, type: vmess, uuid: 3fbdadd3-60b8-3f7c-a7c3-eee3eab85db2, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: 8.douluos.icu}}
+  - {name: 🇺🇲 vip-美国1, server: 37.douluos.icu, port: 36137, type: vmess, uuid: 3fbdadd3-60b8-3f7c-a7c3-eee3eab85db2, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: 37.douluos.icu}}
+  - {name: 🇬🇧 vip-英国1, server: 32.douluos.icu, port: 36132, type: vmess, uuid: 3fbdadd3-60b8-3f7c-a7c3-eee3eab85db2, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: 32.douluos.icu}}
+  - {name: 🇰🇷 vip-韩国1, server: 23.douluos.icu, port: 36123, type: vmess, uuid: 3fbdadd3-60b8-3f7c-a7c3-eee3eab85db2, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: 23.douluos.icu}}
+  - {name: 🇰🇷 vip-韩国2, server: 24.douluos.icu, port: 36124, type: vmess, uuid: 3fbdadd3-60b8-3f7c-a7c3-eee3eab85db2, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: 24.douluos.icu}}
+  - {name: 🇭🇰 vip-香港11, server: 36.douluos.icu, port: 36136, type: vmess, uuid: 3fbdadd3-60b8-3f7c-a7c3-eee3eab85db2, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: 36.douluos.icu}}
+  - {name: 🇭🇰 vip-香港4, server: 22.douluos.icu, port: 36122, type: vmess, uuid: 3fbdadd3-60b8-3f7c-a7c3-eee3eab85db2, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: 22.douluos.icu}}
+  - {name: 🇭🇰 vip-香港5, server: 29.douluos.icu, port: 36129, type: vmess, uuid: 3fbdadd3-60b8-3f7c-a7c3-eee3eab85db2, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: 29.douluos.icu}}
+  - {name: 🇭🇰 vip-香港6, server: 30.douluos.icu, port: 36130, type: vmess, uuid: 3fbdadd3-60b8-3f7c-a7c3-eee3eab85db2, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: 30.douluos.icu}}
+  - {name: 🇭🇰 vip-香港7, server: 31.douluos.icu, port: 36131, type: vmess, uuid: 3fbdadd3-60b8-3f7c-a7c3-eee3eab85db2, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: 31.douluos.icu}}
+  - {name: 🇭🇰 vip-香港8, server: 33.douluos.icu, port: 36133, type: vmess, uuid: 3fbdadd3-60b8-3f7c-a7c3-eee3eab85db2, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: 33.douluos.icu}}
+  - {name: 🇸🇬 V1-新加坡AWS 02 AGA加速 1.0x, server: v1-aws-sg-02.tudog.me, port: 80, type: vmess, uuid: ac750bd3-6bc7-3881-a34f-b52bf22aadd6, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /tudog, ws-headers: {Host: v1-aws-sg-02.tudog.me}}
+  - {name: 🇸🇬 V1-新加坡AWS 07 AGA加速 1.0x, server: v1-aws-sg-07.tudog.me, port: 80, type: vmess, uuid: ac750bd3-6bc7-3881-a34f-b52bf22aadd6, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /tudog, ws-headers: {Host: v1-aws-sg-07.tudog.me}}
+  - {name: 🇸🇬 V1-新加坡AWS 08 AGA加速 1.0x, server: v1-aws-sg-08.tudog.me, port: 80, type: vmess, uuid: ac750bd3-6bc7-3881-a34f-b52bf22aadd6, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /tudog, ws-headers: {Host: v1-aws-sg-08.tudog.me}}
+  - {name: 🇯🇵 V1-日本AWS 01 AGA加速 1.0x, server: v1-aws-jp-01.tudog.me, port: 80, type: vmess, uuid: ac750bd3-6bc7-3881-a34f-b52bf22aadd6, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /tudog, ws-headers: {Host: v1-aws-jp-01.tudog.me}}
   - {name: 🇯🇵 V1-日本AWS 09 AGA加速 1.0x, server: v1-aws-jp-09.tudog.me, port: 80, type: vmess, uuid: ac750bd3-6bc7-3881-a34f-b52bf22aadd6, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /tudog, ws-headers: {Host: v1-aws-jp-09.tudog.me}}
+  - {name: 🇯🇵 V1-日本AWS 11 AGA加速 1.0x, server: v1-aws-jp-11.tudog.me, port: 80, type: vmess, uuid: ac750bd3-6bc7-3881-a34f-b52bf22aadd6, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /tudog, ws-headers: {Host: v1-aws-jp-11.tudog.me}}
   - {name: 🇯🇵 V1-日本AWS 12 AGA加速 1.0x, server: v1-aws-jp-12.tudog.me, port: 80, type: vmess, uuid: ac750bd3-6bc7-3881-a34f-b52bf22aadd6, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /tudog, ws-headers: {Host: v1-aws-jp-12.tudog.me}}
-  - {name: 🇯🇵 V1-日本AWS 13 AGA加速 1.0x, server: v1-aws-jp-13.tudog.me, port: 80, type: vmess, uuid: ac750bd3-6bc7-3881-a34f-b52bf22aadd6, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /tudog, ws-headers: {Host: v1-aws-jp-13.tudog.me}}
   - {name: 🇯🇵 V1-日本AWS 14 AGA加速 1.0x, server: v1-aws-jp-14.tudog.me, port: 80, type: vmess, uuid: ac750bd3-6bc7-3881-a34f-b52bf22aadd6, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /tudog, ws-headers: {Host: v1-aws-jp-14.tudog.me}}
   - {name: 🇯🇵 V1-日本AWS 15 AGA加速 1.0x, server: v1-aws-jp-15.tudog.me, port: 80, type: vmess, uuid: ac750bd3-6bc7-3881-a34f-b52bf22aadd6, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /tudog, ws-headers: {Host: v1-aws-jp-15.tudog.me}}
   - {name: 🇯🇵 V1-日本AWS 16 AGA加速 1.0x, server: v1-aws-jp-16.tudog.me, port: 80, type: vmess, uuid: ac750bd3-6bc7-3881-a34f-b52bf22aadd6, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /tudog, ws-headers: {Host: v1-aws-jp-16.tudog.me}}
+  - {name: 🇰🇷 V1-韩国AWS 01 AGA加速 1.0x, server: v1-aws-kr-01.tudog.me, port: 1080, type: vmess, uuid: ac750bd3-6bc7-3881-a34f-b52bf22aadd6, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /tudog, ws-headers: {Host: v1-aws-kr-01.tudog.me}}
   - {name: 🇰🇷 V1-韩国AWS 02 AGA加速 1.0x, server: v1-aws-kr-02.tudog.me, port: 1080, type: vmess, uuid: ac750bd3-6bc7-3881-a34f-b52bf22aadd6, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /tudog, ws-headers: {Host: v1-aws-kr-02.tudog.me}}
   - {name: 🇰🇷 V1-韩国AWS 03 AGA加速 1.0x, server: v1-aws-kr-03.tudog.me, port: 1080, type: vmess, uuid: ac750bd3-6bc7-3881-a34f-b52bf22aadd6, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /tudog, ws-headers: {Host: v1-aws-kr-03.tudog.me}}
-  - {name: 🇰🇷 V1-韩国AWS 04 AGA加速 1.0x, server: v1-aws-kr-04.tudog.me, port: 1080, type: vmess, uuid: ac750bd3-6bc7-3881-a34f-b52bf22aadd6, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /tudog, ws-headers: {Host: v1-aws-kr-04.tudog.me}}
   - {name: 🇰🇷 V1-韩国AWS 05 AGA加速 1.0x, server: v1-aws-kr-05.tudog.me, port: 1080, type: vmess, uuid: ac750bd3-6bc7-3881-a34f-b52bf22aadd6, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /tudog, ws-headers: {Host: v1-aws-kr-05.tudog.me}}
+  - {name: 🇰🇷 V1-韩国AWS 06 AGA加速 1.0x, server: v1-aws-kr-06.tudog.me, port: 1080, type: vmess, uuid: ac750bd3-6bc7-3881-a34f-b52bf22aadd6, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /tudog, ws-headers: {Host: v1-aws-kr-06.tudog.me}}
+  - {name: 🇰🇷 V1-韩国AWS 07 AGA加速 1.0x, server: v1-aws-kr-07.tudog.me, port: 1080, type: vmess, uuid: ac750bd3-6bc7-3881-a34f-b52bf22aadd6, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /tudog, ws-headers: {Host: v1-aws-kr-07.tudog.me}}
   - {name: 🇰🇷 V1-韩国AWS 08 AGA加速 1.0x, server: v1-aws-kr-08.tudog.me, port: 1080, type: vmess, uuid: ac750bd3-6bc7-3881-a34f-b52bf22aadd6, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /tudog, ws-headers: {Host: v1-aws-kr-08.tudog.me}}
   - {name: 🇰🇷 V1-韩国AWS 10 AGA加速 1.0x, server: v1-aws-kr-10.tudog.me, port: 1080, type: vmess, uuid: ac750bd3-6bc7-3881-a34f-b52bf22aadd6, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /tudog, ws-headers: {Host: v1-aws-kr-10.tudog.me}}
   - {name: 🇰🇷 V1-韩国AWS 11 AGA加速 1.0x, server: v1-aws-kr-11.tudog.me, port: 1080, type: vmess, uuid: ac750bd3-6bc7-3881-a34f-b52bf22aadd6, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /tudog, ws-headers: {Host: v1-aws-kr-11.tudog.me}}
-  - {name: 🇰🇷 V1-韩国AWS 12 AGA加速 1.0x, server: v1-aws-kr-12.tudog.me, port: 1080, type: vmess, uuid: ac750bd3-6bc7-3881-a34f-b52bf22aadd6, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /tudog, ws-headers: {Host: v1-aws-kr-12.tudog.me}}
   - {name: 🇰🇷 V1-韩国AWS 13 AGA加速 1.0x, server: v1-aws-kr-13.tudog.me, port: 1080, type: vmess, uuid: ac750bd3-6bc7-3881-a34f-b52bf22aadd6, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /tudog, ws-headers: {Host: v1-aws-kr-13.tudog.me}}
-  - {name: 🇰🇷 V1-韩国AWS 14 AGA加速 1.0x, server: v1-aws-kr-14.tudog.me, port: 1080, type: vmess, uuid: ac750bd3-6bc7-3881-a34f-b52bf22aadd6, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /tudog, ws-headers: {Host: v1-aws-kr-14.tudog.me}}
   - {name: 🇰🇷 V1-韩国AWS 15 AGA加速 1.0x, server: v1-aws-kr-15.tudog.me, port: 1080, type: vmess, uuid: ac750bd3-6bc7-3881-a34f-b52bf22aadd6, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /tudog, ws-headers: {Host: v1-aws-kr-15.tudog.me}}
   - {name: 🇰🇷 V1-韩国AWS 16 AGA加速 1.0x, server: v1-aws-kr-16.tudog.me, port: 1080, type: vmess, uuid: ac750bd3-6bc7-3881-a34f-b52bf22aadd6, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /tudog, ws-headers: {Host: v1-aws-kr-16.tudog.me}}
-  - {name: 🇭🇰 V1-香港AWS 09 AGA加速 1.0x, server: v1-aws-hk-09.tudog.me, port: 80, type: vmess, uuid: ac750bd3-6bc7-3881-a34f-b52bf22aadd6, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /tudog, ws-headers: {Host: v1-aws-hk-09.tudog.me}}
-  - {name: 🇭🇰 V1-香港AWS 12 AGA加速 1.0x, server: v1-aws-hk-12.tudog.me, port: 80, type: vmess, uuid: ac750bd3-6bc7-3881-a34f-b52bf22aadd6, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /tudog, ws-headers: {Host: v1-aws-hk-12.tudog.me}}
-  - {name: 🇭🇰 V1-香港AWS 13 AGA加速 1.0x, server: v1-aws-hk-13.tudog.me, port: 80, type: vmess, uuid: ac750bd3-6bc7-3881-a34f-b52bf22aadd6, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /tudog, ws-headers: {Host: v1-aws-hk-13.tudog.me}}
-  - {name: 🇭🇰 V1-香港AWS 14 AGA加速 1.0x, server: v1-aws-hk-14.tudog.me, port: 80, type: vmess, uuid: ac750bd3-6bc7-3881-a34f-b52bf22aadd6, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /tudog, ws-headers: {Host: v1-aws-hk-14.tudog.me}}
-  - {name: 🇭🇰 V1-香港AWS 16 AGA加速 1.0x, server: v1-aws-hk-16.tudog.me, port: 80, type: vmess, uuid: ac750bd3-6bc7-3881-a34f-b52bf22aadd6, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /tudog, ws-headers: {Host: v1-aws-hk-16.tudog.me}}
   - {name: 🇷🇺 俄罗斯-隧道中转 - 10692 单端口, server: shcu.cnhost.xyz, port: 10692, type: ssr, cipher: aes-256-cfb, password: TuXJdt, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 1966:lxpzy30qs3m, obfs-param: .microsoft.com}
   - {name: 🇮🇳 印度 孟买-来点玛莎拉 - 10693 单端口, server: shcu.cnhost.xyz, port: 10693, type: ssr, cipher: aes-256-cfb, password: TuXJdt, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 1966:lxpzy30qs3m, obfs-param: .microsoft.com}
   - {name: 🇸🇬 新加坡AGA 魔戒.com - 23411 单端口, server: aga.gkd.world, port: 23411, type: ssr, cipher: aes-256-cfb, password: TuXJdt, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 1966:lxpzy30qs3m, obfs-param: .microsoft.com}
@@ -244,10 +259,6 @@ proxy-groups:
       - 🇹🇼 22
       - 🇹🇼 23
       - 🇹🇼 24
-      - 🇺🇲 BGP美国7
-      - 🇺🇲 BGP美国8
-      - 🇺🇲 BGP美国9
-      - 🇭🇰 香港AWS1-电信联通
       - 🇨🇦 [电信]加拿大 01
       - 🇮🇳 [电信]印度 01
       - 🇩🇪 [电信]德国 01
@@ -255,7 +266,6 @@ proxy-groups:
       - 🇸🇬 [电信]新加坡 02
       - 🇸🇬 [电信]新加坡 03
       - 🇸🇬 [电信]新加坡 04
-      - 🇯🇵 [电信]日本 01
       - 🇺🇲 [电信]美国 01
       - 🇺🇲 [电信]美国 02
       - 🇺🇲 [电信]美国 03
@@ -267,8 +277,6 @@ proxy-groups:
       - 🇳🇱 [电信]荷兰 02
       - 🇰🇷 [电信]韩国 01
       - 🇭🇰 [电信]香港 01
-      - 🇭🇰 [电信]香港 02
-      - 🇭🇰 [电信]香港 03
       - 🇨🇦 [联通]加拿大 01
       - 🇮🇳 [联通]印度 01
       - 🇩🇪 [联通]德国 01
@@ -276,7 +284,6 @@ proxy-groups:
       - 🇸🇬 [联通]新加坡 02
       - 🇸🇬 [联通]新加坡 03
       - 🇸🇬 [联通]新加坡 04
-      - 🇯🇵 [联通]日本 01
       - 🇺🇲 [联通]美国 01
       - 🇺🇲 [联通]美国 02
       - 🇺🇲 [联通]美国 03
@@ -288,55 +295,78 @@ proxy-groups:
       - 🇳🇱 [联通]荷兰 02
       - 🇰🇷 [联通]韩国 01
       - 🇭🇰 [联通]香港 01
-      - 🇭🇰 [联通]香港 02
       - 🇨🇳 台湾01直连
-      - 🇭🇰 粤港直连ULTRA
-      - 🇭🇰 直连苏港ULTRA
-      - 🇿🇦 移动中转南非ULTTA
-      - 🇨🇳 移动优化粤台
-      - 🇹🇷 粤美优化ULTRA
-      - 🇺🇲 移动粤美优化
-      - 🇰🇷 移动粤韩优化
-      - 🇰🇷 移动粤韩优化2
-      - 🇯🇵 移动苏日优化1
-      - 🇯🇵 移动苏日优化2
-      - 🇨🇳 台湾原生  | 广东中继 | Netflix&动画疯
-      - 🇨🇳 台湾原生 02 | 广东中继 | Netflix&动画疯
-      - 🇸🇬 新加坡 02 | 广东中继
-      - 🇸🇬 新加坡原生 01 | 广东中继 | Netflix
-      - 🇺🇲 美国01 | 广东中继
-      - 🇭🇰 香港01 | 广东中继
-      - 🇭🇰 香港02 | 广东中继
-      - 🇭🇰 香港05 | 电信直连 | AGA专线 | x0.3
-      - 🇭🇰 香港06 | 电信直连 | AGA专线 | x0.3
-      - 🇭🇰 香港07 | 广东中继
-      - 🇭🇰 香港08 | 广东中继
-      - 🇸🇬 V1-新加坡AWS 03 AGA加速 1.0x
-      - 🇸🇬 V1-新加坡AWS 06 AGA加速 1.0x
-      - 🇯🇵 V1-日本AWS 06 AGA加速 1.0x
+      - 🇭🇰 ⒈V2RAY 联通-中转-香港
+      - 🇸🇬 ⒉V2RAY 上海CN2-中转-新加坡
+      - 🇯🇵 ⒊V2RAY 电信-中转-日本
+      - 🇸🇬 ⒋V2RAY 广移-中转-新加坡
+      - 🇯🇵 ⒌V2RAY 上海-中转-日本
+      - 🇯🇵 ⒍V2RAY 广移-中转-日本
+      - 🇭🇰 ⒎V2RAY 广移-中转-香港
+      - 🇸🇬 ⒏V2RAY 联通-中转-新加坡
+      - 🇨🇳 ⒐V2RAY 上海CN2-中转-台湾Hinet-原生IP|Netflix
+      - 🇭🇰 ⒑V2RAY 上海CN2-中转-香港
+      - 🇨🇳 ⒒V2RAY 广移-中转-台湾Hinet-原生IP|Netflix
+      - 🇭🇰 vip-1香港1
+      - 🇭🇰 vip-1香港10
+      - 🇭🇰 vip-1香港9
+      - 🇭🇰 vip-2香港2
+      - 🇭🇰 vip-3香港3
+      - 🇸🇬 vip-5新加坡
+      - 🇸🇬 vip-6新加坡
+      - 🇸🇬 vip-7新加坡
+      - 🇸🇬 vip-8新加坡
+      - 🇨🇦 vip-加拿大1
+      - 🇨🇳 vip-台湾1解锁奈飞
+      - 🇨🇳 vip-台湾3解锁奈飞
+      - 🇨🇳 vip-台湾4解锁奈飞
+      - 🇨🇳 vip-台湾5解锁奈飞
+      - 🇨🇳 vip-台湾7解锁奈飞
+      - 🇸🇬 vip-新加坡1
+      - 🇸🇬 vip-新加坡2
+      - 🇸🇬 vip-新加坡3
+      - 🇸🇬 vip-新加坡4
+      - 🇯🇵 vip-日本1
+      - 🇯🇵 vip-日本10
+      - 🇯🇵 vip-日本11
+      - 🇯🇵 vip-日本12
+      - 🇯🇵 vip-日本2
+      - 🇯🇵 vip-日本3
+      - 🇯🇵 vip-日本4
+      - 🇯🇵 vip-日本5
+      - 🇯🇵 vip-日本8
+      - 🇺🇲 vip-美国1
+      - 🇬🇧 vip-英国1
+      - 🇰🇷 vip-韩国1
+      - 🇰🇷 vip-韩国2
+      - 🇭🇰 vip-香港11
+      - 🇭🇰 vip-香港4
+      - 🇭🇰 vip-香港5
+      - 🇭🇰 vip-香港6
+      - 🇭🇰 vip-香港7
+      - 🇭🇰 vip-香港8
+      - 🇸🇬 V1-新加坡AWS 02 AGA加速 1.0x
+      - 🇸🇬 V1-新加坡AWS 07 AGA加速 1.0x
+      - 🇸🇬 V1-新加坡AWS 08 AGA加速 1.0x
+      - 🇯🇵 V1-日本AWS 01 AGA加速 1.0x
       - 🇯🇵 V1-日本AWS 09 AGA加速 1.0x
+      - 🇯🇵 V1-日本AWS 11 AGA加速 1.0x
       - 🇯🇵 V1-日本AWS 12 AGA加速 1.0x
-      - 🇯🇵 V1-日本AWS 13 AGA加速 1.0x
       - 🇯🇵 V1-日本AWS 14 AGA加速 1.0x
       - 🇯🇵 V1-日本AWS 15 AGA加速 1.0x
       - 🇯🇵 V1-日本AWS 16 AGA加速 1.0x
+      - 🇰🇷 V1-韩国AWS 01 AGA加速 1.0x
       - 🇰🇷 V1-韩国AWS 02 AGA加速 1.0x
       - 🇰🇷 V1-韩国AWS 03 AGA加速 1.0x
-      - 🇰🇷 V1-韩国AWS 04 AGA加速 1.0x
       - 🇰🇷 V1-韩国AWS 05 AGA加速 1.0x
+      - 🇰🇷 V1-韩国AWS 06 AGA加速 1.0x
+      - 🇰🇷 V1-韩国AWS 07 AGA加速 1.0x
       - 🇰🇷 V1-韩国AWS 08 AGA加速 1.0x
       - 🇰🇷 V1-韩国AWS 10 AGA加速 1.0x
       - 🇰🇷 V1-韩国AWS 11 AGA加速 1.0x
-      - 🇰🇷 V1-韩国AWS 12 AGA加速 1.0x
       - 🇰🇷 V1-韩国AWS 13 AGA加速 1.0x
-      - 🇰🇷 V1-韩国AWS 14 AGA加速 1.0x
       - 🇰🇷 V1-韩国AWS 15 AGA加速 1.0x
       - 🇰🇷 V1-韩国AWS 16 AGA加速 1.0x
-      - 🇭🇰 V1-香港AWS 09 AGA加速 1.0x
-      - 🇭🇰 V1-香港AWS 12 AGA加速 1.0x
-      - 🇭🇰 V1-香港AWS 13 AGA加速 1.0x
-      - 🇭🇰 V1-香港AWS 14 AGA加速 1.0x
-      - 🇭🇰 V1-香港AWS 16 AGA加速 1.0x
       - 🇷🇺 俄罗斯-隧道中转 - 10692 单端口
       - 🇮🇳 印度 孟买-来点玛莎拉 - 10693 单端口
       - 🇸🇬 新加坡AGA 魔戒.com - 23411 单端口
@@ -415,10 +445,6 @@ proxy-groups:
       - 🇹🇼 22
       - 🇹🇼 23
       - 🇹🇼 24
-      - 🇺🇲 BGP美国7
-      - 🇺🇲 BGP美国8
-      - 🇺🇲 BGP美国9
-      - 🇭🇰 香港AWS1-电信联通
       - 🇨🇦 [电信]加拿大 01
       - 🇮🇳 [电信]印度 01
       - 🇩🇪 [电信]德国 01
@@ -426,7 +452,6 @@ proxy-groups:
       - 🇸🇬 [电信]新加坡 02
       - 🇸🇬 [电信]新加坡 03
       - 🇸🇬 [电信]新加坡 04
-      - 🇯🇵 [电信]日本 01
       - 🇺🇲 [电信]美国 01
       - 🇺🇲 [电信]美国 02
       - 🇺🇲 [电信]美国 03
@@ -438,8 +463,6 @@ proxy-groups:
       - 🇳🇱 [电信]荷兰 02
       - 🇰🇷 [电信]韩国 01
       - 🇭🇰 [电信]香港 01
-      - 🇭🇰 [电信]香港 02
-      - 🇭🇰 [电信]香港 03
       - 🇨🇦 [联通]加拿大 01
       - 🇮🇳 [联通]印度 01
       - 🇩🇪 [联通]德国 01
@@ -447,7 +470,6 @@ proxy-groups:
       - 🇸🇬 [联通]新加坡 02
       - 🇸🇬 [联通]新加坡 03
       - 🇸🇬 [联通]新加坡 04
-      - 🇯🇵 [联通]日本 01
       - 🇺🇲 [联通]美国 01
       - 🇺🇲 [联通]美国 02
       - 🇺🇲 [联通]美国 03
@@ -459,55 +481,78 @@ proxy-groups:
       - 🇳🇱 [联通]荷兰 02
       - 🇰🇷 [联通]韩国 01
       - 🇭🇰 [联通]香港 01
-      - 🇭🇰 [联通]香港 02
       - 🇨🇳 台湾01直连
-      - 🇭🇰 粤港直连ULTRA
-      - 🇭🇰 直连苏港ULTRA
-      - 🇿🇦 移动中转南非ULTTA
-      - 🇨🇳 移动优化粤台
-      - 🇹🇷 粤美优化ULTRA
-      - 🇺🇲 移动粤美优化
-      - 🇰🇷 移动粤韩优化
-      - 🇰🇷 移动粤韩优化2
-      - 🇯🇵 移动苏日优化1
-      - 🇯🇵 移动苏日优化2
-      - 🇨🇳 台湾原生  | 广东中继 | Netflix&动画疯
-      - 🇨🇳 台湾原生 02 | 广东中继 | Netflix&动画疯
-      - 🇸🇬 新加坡 02 | 广东中继
-      - 🇸🇬 新加坡原生 01 | 广东中继 | Netflix
-      - 🇺🇲 美国01 | 广东中继
-      - 🇭🇰 香港01 | 广东中继
-      - 🇭🇰 香港02 | 广东中继
-      - 🇭🇰 香港05 | 电信直连 | AGA专线 | x0.3
-      - 🇭🇰 香港06 | 电信直连 | AGA专线 | x0.3
-      - 🇭🇰 香港07 | 广东中继
-      - 🇭🇰 香港08 | 广东中继
-      - 🇸🇬 V1-新加坡AWS 03 AGA加速 1.0x
-      - 🇸🇬 V1-新加坡AWS 06 AGA加速 1.0x
-      - 🇯🇵 V1-日本AWS 06 AGA加速 1.0x
+      - 🇭🇰 ⒈V2RAY 联通-中转-香港
+      - 🇸🇬 ⒉V2RAY 上海CN2-中转-新加坡
+      - 🇯🇵 ⒊V2RAY 电信-中转-日本
+      - 🇸🇬 ⒋V2RAY 广移-中转-新加坡
+      - 🇯🇵 ⒌V2RAY 上海-中转-日本
+      - 🇯🇵 ⒍V2RAY 广移-中转-日本
+      - 🇭🇰 ⒎V2RAY 广移-中转-香港
+      - 🇸🇬 ⒏V2RAY 联通-中转-新加坡
+      - 🇨🇳 ⒐V2RAY 上海CN2-中转-台湾Hinet-原生IP|Netflix
+      - 🇭🇰 ⒑V2RAY 上海CN2-中转-香港
+      - 🇨🇳 ⒒V2RAY 广移-中转-台湾Hinet-原生IP|Netflix
+      - 🇭🇰 vip-1香港1
+      - 🇭🇰 vip-1香港10
+      - 🇭🇰 vip-1香港9
+      - 🇭🇰 vip-2香港2
+      - 🇭🇰 vip-3香港3
+      - 🇸🇬 vip-5新加坡
+      - 🇸🇬 vip-6新加坡
+      - 🇸🇬 vip-7新加坡
+      - 🇸🇬 vip-8新加坡
+      - 🇨🇦 vip-加拿大1
+      - 🇨🇳 vip-台湾1解锁奈飞
+      - 🇨🇳 vip-台湾3解锁奈飞
+      - 🇨🇳 vip-台湾4解锁奈飞
+      - 🇨🇳 vip-台湾5解锁奈飞
+      - 🇨🇳 vip-台湾7解锁奈飞
+      - 🇸🇬 vip-新加坡1
+      - 🇸🇬 vip-新加坡2
+      - 🇸🇬 vip-新加坡3
+      - 🇸🇬 vip-新加坡4
+      - 🇯🇵 vip-日本1
+      - 🇯🇵 vip-日本10
+      - 🇯🇵 vip-日本11
+      - 🇯🇵 vip-日本12
+      - 🇯🇵 vip-日本2
+      - 🇯🇵 vip-日本3
+      - 🇯🇵 vip-日本4
+      - 🇯🇵 vip-日本5
+      - 🇯🇵 vip-日本8
+      - 🇺🇲 vip-美国1
+      - 🇬🇧 vip-英国1
+      - 🇰🇷 vip-韩国1
+      - 🇰🇷 vip-韩国2
+      - 🇭🇰 vip-香港11
+      - 🇭🇰 vip-香港4
+      - 🇭🇰 vip-香港5
+      - 🇭🇰 vip-香港6
+      - 🇭🇰 vip-香港7
+      - 🇭🇰 vip-香港8
+      - 🇸🇬 V1-新加坡AWS 02 AGA加速 1.0x
+      - 🇸🇬 V1-新加坡AWS 07 AGA加速 1.0x
+      - 🇸🇬 V1-新加坡AWS 08 AGA加速 1.0x
+      - 🇯🇵 V1-日本AWS 01 AGA加速 1.0x
       - 🇯🇵 V1-日本AWS 09 AGA加速 1.0x
+      - 🇯🇵 V1-日本AWS 11 AGA加速 1.0x
       - 🇯🇵 V1-日本AWS 12 AGA加速 1.0x
-      - 🇯🇵 V1-日本AWS 13 AGA加速 1.0x
       - 🇯🇵 V1-日本AWS 14 AGA加速 1.0x
       - 🇯🇵 V1-日本AWS 15 AGA加速 1.0x
       - 🇯🇵 V1-日本AWS 16 AGA加速 1.0x
+      - 🇰🇷 V1-韩国AWS 01 AGA加速 1.0x
       - 🇰🇷 V1-韩国AWS 02 AGA加速 1.0x
       - 🇰🇷 V1-韩国AWS 03 AGA加速 1.0x
-      - 🇰🇷 V1-韩国AWS 04 AGA加速 1.0x
       - 🇰🇷 V1-韩国AWS 05 AGA加速 1.0x
+      - 🇰🇷 V1-韩国AWS 06 AGA加速 1.0x
+      - 🇰🇷 V1-韩国AWS 07 AGA加速 1.0x
       - 🇰🇷 V1-韩国AWS 08 AGA加速 1.0x
       - 🇰🇷 V1-韩国AWS 10 AGA加速 1.0x
       - 🇰🇷 V1-韩国AWS 11 AGA加速 1.0x
-      - 🇰🇷 V1-韩国AWS 12 AGA加速 1.0x
       - 🇰🇷 V1-韩国AWS 13 AGA加速 1.0x
-      - 🇰🇷 V1-韩国AWS 14 AGA加速 1.0x
       - 🇰🇷 V1-韩国AWS 15 AGA加速 1.0x
       - 🇰🇷 V1-韩国AWS 16 AGA加速 1.0x
-      - 🇭🇰 V1-香港AWS 09 AGA加速 1.0x
-      - 🇭🇰 V1-香港AWS 12 AGA加速 1.0x
-      - 🇭🇰 V1-香港AWS 13 AGA加速 1.0x
-      - 🇭🇰 V1-香港AWS 14 AGA加速 1.0x
-      - 🇭🇰 V1-香港AWS 16 AGA加速 1.0x
       - 🇷🇺 俄罗斯-隧道中转 - 10692 单端口
       - 🇮🇳 印度 孟买-来点玛莎拉 - 10693 单端口
       - 🇸🇬 新加坡AGA 魔戒.com - 23411 单端口
@@ -587,10 +632,6 @@ proxy-groups:
       - 🇹🇼 22
       - 🇹🇼 23
       - 🇹🇼 24
-      - 🇺🇲 BGP美国7
-      - 🇺🇲 BGP美国8
-      - 🇺🇲 BGP美国9
-      - 🇭🇰 香港AWS1-电信联通
       - 🇨🇦 [电信]加拿大 01
       - 🇮🇳 [电信]印度 01
       - 🇩🇪 [电信]德国 01
@@ -598,7 +639,6 @@ proxy-groups:
       - 🇸🇬 [电信]新加坡 02
       - 🇸🇬 [电信]新加坡 03
       - 🇸🇬 [电信]新加坡 04
-      - 🇯🇵 [电信]日本 01
       - 🇺🇲 [电信]美国 01
       - 🇺🇲 [电信]美国 02
       - 🇺🇲 [电信]美国 03
@@ -610,8 +650,6 @@ proxy-groups:
       - 🇳🇱 [电信]荷兰 02
       - 🇰🇷 [电信]韩国 01
       - 🇭🇰 [电信]香港 01
-      - 🇭🇰 [电信]香港 02
-      - 🇭🇰 [电信]香港 03
       - 🇨🇦 [联通]加拿大 01
       - 🇮🇳 [联通]印度 01
       - 🇩🇪 [联通]德国 01
@@ -619,7 +657,6 @@ proxy-groups:
       - 🇸🇬 [联通]新加坡 02
       - 🇸🇬 [联通]新加坡 03
       - 🇸🇬 [联通]新加坡 04
-      - 🇯🇵 [联通]日本 01
       - 🇺🇲 [联通]美国 01
       - 🇺🇲 [联通]美国 02
       - 🇺🇲 [联通]美国 03
@@ -631,55 +668,78 @@ proxy-groups:
       - 🇳🇱 [联通]荷兰 02
       - 🇰🇷 [联通]韩国 01
       - 🇭🇰 [联通]香港 01
-      - 🇭🇰 [联通]香港 02
       - 🇨🇳 台湾01直连
-      - 🇭🇰 粤港直连ULTRA
-      - 🇭🇰 直连苏港ULTRA
-      - 🇿🇦 移动中转南非ULTTA
-      - 🇨🇳 移动优化粤台
-      - 🇹🇷 粤美优化ULTRA
-      - 🇺🇲 移动粤美优化
-      - 🇰🇷 移动粤韩优化
-      - 🇰🇷 移动粤韩优化2
-      - 🇯🇵 移动苏日优化1
-      - 🇯🇵 移动苏日优化2
-      - 🇨🇳 台湾原生  | 广东中继 | Netflix&动画疯
-      - 🇨🇳 台湾原生 02 | 广东中继 | Netflix&动画疯
-      - 🇸🇬 新加坡 02 | 广东中继
-      - 🇸🇬 新加坡原生 01 | 广东中继 | Netflix
-      - 🇺🇲 美国01 | 广东中继
-      - 🇭🇰 香港01 | 广东中继
-      - 🇭🇰 香港02 | 广东中继
-      - 🇭🇰 香港05 | 电信直连 | AGA专线 | x0.3
-      - 🇭🇰 香港06 | 电信直连 | AGA专线 | x0.3
-      - 🇭🇰 香港07 | 广东中继
-      - 🇭🇰 香港08 | 广东中继
-      - 🇸🇬 V1-新加坡AWS 03 AGA加速 1.0x
-      - 🇸🇬 V1-新加坡AWS 06 AGA加速 1.0x
-      - 🇯🇵 V1-日本AWS 06 AGA加速 1.0x
+      - 🇭🇰 ⒈V2RAY 联通-中转-香港
+      - 🇸🇬 ⒉V2RAY 上海CN2-中转-新加坡
+      - 🇯🇵 ⒊V2RAY 电信-中转-日本
+      - 🇸🇬 ⒋V2RAY 广移-中转-新加坡
+      - 🇯🇵 ⒌V2RAY 上海-中转-日本
+      - 🇯🇵 ⒍V2RAY 广移-中转-日本
+      - 🇭🇰 ⒎V2RAY 广移-中转-香港
+      - 🇸🇬 ⒏V2RAY 联通-中转-新加坡
+      - 🇨🇳 ⒐V2RAY 上海CN2-中转-台湾Hinet-原生IP|Netflix
+      - 🇭🇰 ⒑V2RAY 上海CN2-中转-香港
+      - 🇨🇳 ⒒V2RAY 广移-中转-台湾Hinet-原生IP|Netflix
+      - 🇭🇰 vip-1香港1
+      - 🇭🇰 vip-1香港10
+      - 🇭🇰 vip-1香港9
+      - 🇭🇰 vip-2香港2
+      - 🇭🇰 vip-3香港3
+      - 🇸🇬 vip-5新加坡
+      - 🇸🇬 vip-6新加坡
+      - 🇸🇬 vip-7新加坡
+      - 🇸🇬 vip-8新加坡
+      - 🇨🇦 vip-加拿大1
+      - 🇨🇳 vip-台湾1解锁奈飞
+      - 🇨🇳 vip-台湾3解锁奈飞
+      - 🇨🇳 vip-台湾4解锁奈飞
+      - 🇨🇳 vip-台湾5解锁奈飞
+      - 🇨🇳 vip-台湾7解锁奈飞
+      - 🇸🇬 vip-新加坡1
+      - 🇸🇬 vip-新加坡2
+      - 🇸🇬 vip-新加坡3
+      - 🇸🇬 vip-新加坡4
+      - 🇯🇵 vip-日本1
+      - 🇯🇵 vip-日本10
+      - 🇯🇵 vip-日本11
+      - 🇯🇵 vip-日本12
+      - 🇯🇵 vip-日本2
+      - 🇯🇵 vip-日本3
+      - 🇯🇵 vip-日本4
+      - 🇯🇵 vip-日本5
+      - 🇯🇵 vip-日本8
+      - 🇺🇲 vip-美国1
+      - 🇬🇧 vip-英国1
+      - 🇰🇷 vip-韩国1
+      - 🇰🇷 vip-韩国2
+      - 🇭🇰 vip-香港11
+      - 🇭🇰 vip-香港4
+      - 🇭🇰 vip-香港5
+      - 🇭🇰 vip-香港6
+      - 🇭🇰 vip-香港7
+      - 🇭🇰 vip-香港8
+      - 🇸🇬 V1-新加坡AWS 02 AGA加速 1.0x
+      - 🇸🇬 V1-新加坡AWS 07 AGA加速 1.0x
+      - 🇸🇬 V1-新加坡AWS 08 AGA加速 1.0x
+      - 🇯🇵 V1-日本AWS 01 AGA加速 1.0x
       - 🇯🇵 V1-日本AWS 09 AGA加速 1.0x
+      - 🇯🇵 V1-日本AWS 11 AGA加速 1.0x
       - 🇯🇵 V1-日本AWS 12 AGA加速 1.0x
-      - 🇯🇵 V1-日本AWS 13 AGA加速 1.0x
       - 🇯🇵 V1-日本AWS 14 AGA加速 1.0x
       - 🇯🇵 V1-日本AWS 15 AGA加速 1.0x
       - 🇯🇵 V1-日本AWS 16 AGA加速 1.0x
+      - 🇰🇷 V1-韩国AWS 01 AGA加速 1.0x
       - 🇰🇷 V1-韩国AWS 02 AGA加速 1.0x
       - 🇰🇷 V1-韩国AWS 03 AGA加速 1.0x
-      - 🇰🇷 V1-韩国AWS 04 AGA加速 1.0x
       - 🇰🇷 V1-韩国AWS 05 AGA加速 1.0x
+      - 🇰🇷 V1-韩国AWS 06 AGA加速 1.0x
+      - 🇰🇷 V1-韩国AWS 07 AGA加速 1.0x
       - 🇰🇷 V1-韩国AWS 08 AGA加速 1.0x
       - 🇰🇷 V1-韩国AWS 10 AGA加速 1.0x
       - 🇰🇷 V1-韩国AWS 11 AGA加速 1.0x
-      - 🇰🇷 V1-韩国AWS 12 AGA加速 1.0x
       - 🇰🇷 V1-韩国AWS 13 AGA加速 1.0x
-      - 🇰🇷 V1-韩国AWS 14 AGA加速 1.0x
       - 🇰🇷 V1-韩国AWS 15 AGA加速 1.0x
       - 🇰🇷 V1-韩国AWS 16 AGA加速 1.0x
-      - 🇭🇰 V1-香港AWS 09 AGA加速 1.0x
-      - 🇭🇰 V1-香港AWS 12 AGA加速 1.0x
-      - 🇭🇰 V1-香港AWS 13 AGA加速 1.0x
-      - 🇭🇰 V1-香港AWS 14 AGA加速 1.0x
-      - 🇭🇰 V1-香港AWS 16 AGA加速 1.0x
       - 🇷🇺 俄罗斯-隧道中转 - 10692 单端口
       - 🇮🇳 印度 孟买-来点玛莎拉 - 10693 单端口
       - 🇸🇬 新加坡AGA 魔戒.com - 23411 单端口
@@ -691,27 +751,30 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇭🇰 香港AWS1-电信联通
       - 🇭🇰 [电信]香港 01
-      - 🇭🇰 [电信]香港 02
-      - 🇭🇰 [电信]香港 03
       - 🇭🇰 [联通]香港 01
-      - 🇭🇰 [联通]香港 02
       - 🇨🇳 台湾01直连
-      - 🇨🇳 移动优化粤台
-      - 🇨🇳 台湾原生  | 广东中继 | Netflix&动画疯
-      - 🇨🇳 台湾原生 02 | 广东中继 | Netflix&动画疯
-      - 🇭🇰 香港01 | 广东中继
-      - 🇭🇰 香港02 | 广东中继
-      - 🇭🇰 香港05 | 电信直连 | AGA专线 | x0.3
-      - 🇭🇰 香港06 | 电信直连 | AGA专线 | x0.3
-      - 🇭🇰 香港07 | 广东中继
-      - 🇭🇰 香港08 | 广东中继
-      - 🇭🇰 V1-香港AWS 09 AGA加速 1.0x
-      - 🇭🇰 V1-香港AWS 12 AGA加速 1.0x
-      - 🇭🇰 V1-香港AWS 13 AGA加速 1.0x
-      - 🇭🇰 V1-香港AWS 14 AGA加速 1.0x
-      - 🇭🇰 V1-香港AWS 16 AGA加速 1.0x
+      - 🇭🇰 ⒈V2RAY 联通-中转-香港
+      - 🇭🇰 ⒎V2RAY 广移-中转-香港
+      - 🇨🇳 ⒐V2RAY 上海CN2-中转-台湾Hinet-原生IP|Netflix
+      - 🇭🇰 ⒑V2RAY 上海CN2-中转-香港
+      - 🇨🇳 ⒒V2RAY 广移-中转-台湾Hinet-原生IP|Netflix
+      - 🇭🇰 vip-1香港1
+      - 🇭🇰 vip-1香港10
+      - 🇭🇰 vip-1香港9
+      - 🇭🇰 vip-2香港2
+      - 🇭🇰 vip-3香港3
+      - 🇨🇳 vip-台湾1解锁奈飞
+      - 🇨🇳 vip-台湾3解锁奈飞
+      - 🇨🇳 vip-台湾4解锁奈飞
+      - 🇨🇳 vip-台湾5解锁奈飞
+      - 🇨🇳 vip-台湾7解锁奈飞
+      - 🇭🇰 vip-香港11
+      - 🇭🇰 vip-香港4
+      - 🇭🇰 vip-香港5
+      - 🇭🇰 vip-香港6
+      - 🇭🇰 vip-香港7
+      - 🇭🇰 vip-香港8
       - 🇭🇰 中国 香港-HK06-直连
   - name: Ⓜ️ 微软服务
     type: select
@@ -785,10 +848,6 @@ proxy-groups:
       - 🇹🇼 22
       - 🇹🇼 23
       - 🇹🇼 24
-      - 🇺🇲 BGP美国7
-      - 🇺🇲 BGP美国8
-      - 🇺🇲 BGP美国9
-      - 🇭🇰 香港AWS1-电信联通
       - 🇨🇦 [电信]加拿大 01
       - 🇮🇳 [电信]印度 01
       - 🇩🇪 [电信]德国 01
@@ -796,7 +855,6 @@ proxy-groups:
       - 🇸🇬 [电信]新加坡 02
       - 🇸🇬 [电信]新加坡 03
       - 🇸🇬 [电信]新加坡 04
-      - 🇯🇵 [电信]日本 01
       - 🇺🇲 [电信]美国 01
       - 🇺🇲 [电信]美国 02
       - 🇺🇲 [电信]美国 03
@@ -808,8 +866,6 @@ proxy-groups:
       - 🇳🇱 [电信]荷兰 02
       - 🇰🇷 [电信]韩国 01
       - 🇭🇰 [电信]香港 01
-      - 🇭🇰 [电信]香港 02
-      - 🇭🇰 [电信]香港 03
       - 🇨🇦 [联通]加拿大 01
       - 🇮🇳 [联通]印度 01
       - 🇩🇪 [联通]德国 01
@@ -817,7 +873,6 @@ proxy-groups:
       - 🇸🇬 [联通]新加坡 02
       - 🇸🇬 [联通]新加坡 03
       - 🇸🇬 [联通]新加坡 04
-      - 🇯🇵 [联通]日本 01
       - 🇺🇲 [联通]美国 01
       - 🇺🇲 [联通]美国 02
       - 🇺🇲 [联通]美国 03
@@ -829,55 +884,78 @@ proxy-groups:
       - 🇳🇱 [联通]荷兰 02
       - 🇰🇷 [联通]韩国 01
       - 🇭🇰 [联通]香港 01
-      - 🇭🇰 [联通]香港 02
       - 🇨🇳 台湾01直连
-      - 🇭🇰 粤港直连ULTRA
-      - 🇭🇰 直连苏港ULTRA
-      - 🇿🇦 移动中转南非ULTTA
-      - 🇨🇳 移动优化粤台
-      - 🇹🇷 粤美优化ULTRA
-      - 🇺🇲 移动粤美优化
-      - 🇰🇷 移动粤韩优化
-      - 🇰🇷 移动粤韩优化2
-      - 🇯🇵 移动苏日优化1
-      - 🇯🇵 移动苏日优化2
-      - 🇨🇳 台湾原生  | 广东中继 | Netflix&动画疯
-      - 🇨🇳 台湾原生 02 | 广东中继 | Netflix&动画疯
-      - 🇸🇬 新加坡 02 | 广东中继
-      - 🇸🇬 新加坡原生 01 | 广东中继 | Netflix
-      - 🇺🇲 美国01 | 广东中继
-      - 🇭🇰 香港01 | 广东中继
-      - 🇭🇰 香港02 | 广东中继
-      - 🇭🇰 香港05 | 电信直连 | AGA专线 | x0.3
-      - 🇭🇰 香港06 | 电信直连 | AGA专线 | x0.3
-      - 🇭🇰 香港07 | 广东中继
-      - 🇭🇰 香港08 | 广东中继
-      - 🇸🇬 V1-新加坡AWS 03 AGA加速 1.0x
-      - 🇸🇬 V1-新加坡AWS 06 AGA加速 1.0x
-      - 🇯🇵 V1-日本AWS 06 AGA加速 1.0x
+      - 🇭🇰 ⒈V2RAY 联通-中转-香港
+      - 🇸🇬 ⒉V2RAY 上海CN2-中转-新加坡
+      - 🇯🇵 ⒊V2RAY 电信-中转-日本
+      - 🇸🇬 ⒋V2RAY 广移-中转-新加坡
+      - 🇯🇵 ⒌V2RAY 上海-中转-日本
+      - 🇯🇵 ⒍V2RAY 广移-中转-日本
+      - 🇭🇰 ⒎V2RAY 广移-中转-香港
+      - 🇸🇬 ⒏V2RAY 联通-中转-新加坡
+      - 🇨🇳 ⒐V2RAY 上海CN2-中转-台湾Hinet-原生IP|Netflix
+      - 🇭🇰 ⒑V2RAY 上海CN2-中转-香港
+      - 🇨🇳 ⒒V2RAY 广移-中转-台湾Hinet-原生IP|Netflix
+      - 🇭🇰 vip-1香港1
+      - 🇭🇰 vip-1香港10
+      - 🇭🇰 vip-1香港9
+      - 🇭🇰 vip-2香港2
+      - 🇭🇰 vip-3香港3
+      - 🇸🇬 vip-5新加坡
+      - 🇸🇬 vip-6新加坡
+      - 🇸🇬 vip-7新加坡
+      - 🇸🇬 vip-8新加坡
+      - 🇨🇦 vip-加拿大1
+      - 🇨🇳 vip-台湾1解锁奈飞
+      - 🇨🇳 vip-台湾3解锁奈飞
+      - 🇨🇳 vip-台湾4解锁奈飞
+      - 🇨🇳 vip-台湾5解锁奈飞
+      - 🇨🇳 vip-台湾7解锁奈飞
+      - 🇸🇬 vip-新加坡1
+      - 🇸🇬 vip-新加坡2
+      - 🇸🇬 vip-新加坡3
+      - 🇸🇬 vip-新加坡4
+      - 🇯🇵 vip-日本1
+      - 🇯🇵 vip-日本10
+      - 🇯🇵 vip-日本11
+      - 🇯🇵 vip-日本12
+      - 🇯🇵 vip-日本2
+      - 🇯🇵 vip-日本3
+      - 🇯🇵 vip-日本4
+      - 🇯🇵 vip-日本5
+      - 🇯🇵 vip-日本8
+      - 🇺🇲 vip-美国1
+      - 🇬🇧 vip-英国1
+      - 🇰🇷 vip-韩国1
+      - 🇰🇷 vip-韩国2
+      - 🇭🇰 vip-香港11
+      - 🇭🇰 vip-香港4
+      - 🇭🇰 vip-香港5
+      - 🇭🇰 vip-香港6
+      - 🇭🇰 vip-香港7
+      - 🇭🇰 vip-香港8
+      - 🇸🇬 V1-新加坡AWS 02 AGA加速 1.0x
+      - 🇸🇬 V1-新加坡AWS 07 AGA加速 1.0x
+      - 🇸🇬 V1-新加坡AWS 08 AGA加速 1.0x
+      - 🇯🇵 V1-日本AWS 01 AGA加速 1.0x
       - 🇯🇵 V1-日本AWS 09 AGA加速 1.0x
+      - 🇯🇵 V1-日本AWS 11 AGA加速 1.0x
       - 🇯🇵 V1-日本AWS 12 AGA加速 1.0x
-      - 🇯🇵 V1-日本AWS 13 AGA加速 1.0x
       - 🇯🇵 V1-日本AWS 14 AGA加速 1.0x
       - 🇯🇵 V1-日本AWS 15 AGA加速 1.0x
       - 🇯🇵 V1-日本AWS 16 AGA加速 1.0x
+      - 🇰🇷 V1-韩国AWS 01 AGA加速 1.0x
       - 🇰🇷 V1-韩国AWS 02 AGA加速 1.0x
       - 🇰🇷 V1-韩国AWS 03 AGA加速 1.0x
-      - 🇰🇷 V1-韩国AWS 04 AGA加速 1.0x
       - 🇰🇷 V1-韩国AWS 05 AGA加速 1.0x
+      - 🇰🇷 V1-韩国AWS 06 AGA加速 1.0x
+      - 🇰🇷 V1-韩国AWS 07 AGA加速 1.0x
       - 🇰🇷 V1-韩国AWS 08 AGA加速 1.0x
       - 🇰🇷 V1-韩国AWS 10 AGA加速 1.0x
       - 🇰🇷 V1-韩国AWS 11 AGA加速 1.0x
-      - 🇰🇷 V1-韩国AWS 12 AGA加速 1.0x
       - 🇰🇷 V1-韩国AWS 13 AGA加速 1.0x
-      - 🇰🇷 V1-韩国AWS 14 AGA加速 1.0x
       - 🇰🇷 V1-韩国AWS 15 AGA加速 1.0x
       - 🇰🇷 V1-韩国AWS 16 AGA加速 1.0x
-      - 🇭🇰 V1-香港AWS 09 AGA加速 1.0x
-      - 🇭🇰 V1-香港AWS 12 AGA加速 1.0x
-      - 🇭🇰 V1-香港AWS 13 AGA加速 1.0x
-      - 🇭🇰 V1-香港AWS 14 AGA加速 1.0x
-      - 🇭🇰 V1-香港AWS 16 AGA加速 1.0x
       - 🇷🇺 俄罗斯-隧道中转 - 10692 单端口
       - 🇮🇳 印度 孟买-来点玛莎拉 - 10693 单端口
       - 🇸🇬 新加坡AGA 魔戒.com - 23411 单端口
@@ -955,10 +1033,6 @@ proxy-groups:
       - 🇹🇼 22
       - 🇹🇼 23
       - 🇹🇼 24
-      - 🇺🇲 BGP美国7
-      - 🇺🇲 BGP美国8
-      - 🇺🇲 BGP美国9
-      - 🇭🇰 香港AWS1-电信联通
       - 🇨🇦 [电信]加拿大 01
       - 🇮🇳 [电信]印度 01
       - 🇩🇪 [电信]德国 01
@@ -966,7 +1040,6 @@ proxy-groups:
       - 🇸🇬 [电信]新加坡 02
       - 🇸🇬 [电信]新加坡 03
       - 🇸🇬 [电信]新加坡 04
-      - 🇯🇵 [电信]日本 01
       - 🇺🇲 [电信]美国 01
       - 🇺🇲 [电信]美国 02
       - 🇺🇲 [电信]美国 03
@@ -978,8 +1051,6 @@ proxy-groups:
       - 🇳🇱 [电信]荷兰 02
       - 🇰🇷 [电信]韩国 01
       - 🇭🇰 [电信]香港 01
-      - 🇭🇰 [电信]香港 02
-      - 🇭🇰 [电信]香港 03
       - 🇨🇦 [联通]加拿大 01
       - 🇮🇳 [联通]印度 01
       - 🇩🇪 [联通]德国 01
@@ -987,7 +1058,6 @@ proxy-groups:
       - 🇸🇬 [联通]新加坡 02
       - 🇸🇬 [联通]新加坡 03
       - 🇸🇬 [联通]新加坡 04
-      - 🇯🇵 [联通]日本 01
       - 🇺🇲 [联通]美国 01
       - 🇺🇲 [联通]美国 02
       - 🇺🇲 [联通]美国 03
@@ -999,55 +1069,78 @@ proxy-groups:
       - 🇳🇱 [联通]荷兰 02
       - 🇰🇷 [联通]韩国 01
       - 🇭🇰 [联通]香港 01
-      - 🇭🇰 [联通]香港 02
       - 🇨🇳 台湾01直连
-      - 🇭🇰 粤港直连ULTRA
-      - 🇭🇰 直连苏港ULTRA
-      - 🇿🇦 移动中转南非ULTTA
-      - 🇨🇳 移动优化粤台
-      - 🇹🇷 粤美优化ULTRA
-      - 🇺🇲 移动粤美优化
-      - 🇰🇷 移动粤韩优化
-      - 🇰🇷 移动粤韩优化2
-      - 🇯🇵 移动苏日优化1
-      - 🇯🇵 移动苏日优化2
-      - 🇨🇳 台湾原生  | 广东中继 | Netflix&动画疯
-      - 🇨🇳 台湾原生 02 | 广东中继 | Netflix&动画疯
-      - 🇸🇬 新加坡 02 | 广东中继
-      - 🇸🇬 新加坡原生 01 | 广东中继 | Netflix
-      - 🇺🇲 美国01 | 广东中继
-      - 🇭🇰 香港01 | 广东中继
-      - 🇭🇰 香港02 | 广东中继
-      - 🇭🇰 香港05 | 电信直连 | AGA专线 | x0.3
-      - 🇭🇰 香港06 | 电信直连 | AGA专线 | x0.3
-      - 🇭🇰 香港07 | 广东中继
-      - 🇭🇰 香港08 | 广东中继
-      - 🇸🇬 V1-新加坡AWS 03 AGA加速 1.0x
-      - 🇸🇬 V1-新加坡AWS 06 AGA加速 1.0x
-      - 🇯🇵 V1-日本AWS 06 AGA加速 1.0x
+      - 🇭🇰 ⒈V2RAY 联通-中转-香港
+      - 🇸🇬 ⒉V2RAY 上海CN2-中转-新加坡
+      - 🇯🇵 ⒊V2RAY 电信-中转-日本
+      - 🇸🇬 ⒋V2RAY 广移-中转-新加坡
+      - 🇯🇵 ⒌V2RAY 上海-中转-日本
+      - 🇯🇵 ⒍V2RAY 广移-中转-日本
+      - 🇭🇰 ⒎V2RAY 广移-中转-香港
+      - 🇸🇬 ⒏V2RAY 联通-中转-新加坡
+      - 🇨🇳 ⒐V2RAY 上海CN2-中转-台湾Hinet-原生IP|Netflix
+      - 🇭🇰 ⒑V2RAY 上海CN2-中转-香港
+      - 🇨🇳 ⒒V2RAY 广移-中转-台湾Hinet-原生IP|Netflix
+      - 🇭🇰 vip-1香港1
+      - 🇭🇰 vip-1香港10
+      - 🇭🇰 vip-1香港9
+      - 🇭🇰 vip-2香港2
+      - 🇭🇰 vip-3香港3
+      - 🇸🇬 vip-5新加坡
+      - 🇸🇬 vip-6新加坡
+      - 🇸🇬 vip-7新加坡
+      - 🇸🇬 vip-8新加坡
+      - 🇨🇦 vip-加拿大1
+      - 🇨🇳 vip-台湾1解锁奈飞
+      - 🇨🇳 vip-台湾3解锁奈飞
+      - 🇨🇳 vip-台湾4解锁奈飞
+      - 🇨🇳 vip-台湾5解锁奈飞
+      - 🇨🇳 vip-台湾7解锁奈飞
+      - 🇸🇬 vip-新加坡1
+      - 🇸🇬 vip-新加坡2
+      - 🇸🇬 vip-新加坡3
+      - 🇸🇬 vip-新加坡4
+      - 🇯🇵 vip-日本1
+      - 🇯🇵 vip-日本10
+      - 🇯🇵 vip-日本11
+      - 🇯🇵 vip-日本12
+      - 🇯🇵 vip-日本2
+      - 🇯🇵 vip-日本3
+      - 🇯🇵 vip-日本4
+      - 🇯🇵 vip-日本5
+      - 🇯🇵 vip-日本8
+      - 🇺🇲 vip-美国1
+      - 🇬🇧 vip-英国1
+      - 🇰🇷 vip-韩国1
+      - 🇰🇷 vip-韩国2
+      - 🇭🇰 vip-香港11
+      - 🇭🇰 vip-香港4
+      - 🇭🇰 vip-香港5
+      - 🇭🇰 vip-香港6
+      - 🇭🇰 vip-香港7
+      - 🇭🇰 vip-香港8
+      - 🇸🇬 V1-新加坡AWS 02 AGA加速 1.0x
+      - 🇸🇬 V1-新加坡AWS 07 AGA加速 1.0x
+      - 🇸🇬 V1-新加坡AWS 08 AGA加速 1.0x
+      - 🇯🇵 V1-日本AWS 01 AGA加速 1.0x
       - 🇯🇵 V1-日本AWS 09 AGA加速 1.0x
+      - 🇯🇵 V1-日本AWS 11 AGA加速 1.0x
       - 🇯🇵 V1-日本AWS 12 AGA加速 1.0x
-      - 🇯🇵 V1-日本AWS 13 AGA加速 1.0x
       - 🇯🇵 V1-日本AWS 14 AGA加速 1.0x
       - 🇯🇵 V1-日本AWS 15 AGA加速 1.0x
       - 🇯🇵 V1-日本AWS 16 AGA加速 1.0x
+      - 🇰🇷 V1-韩国AWS 01 AGA加速 1.0x
       - 🇰🇷 V1-韩国AWS 02 AGA加速 1.0x
       - 🇰🇷 V1-韩国AWS 03 AGA加速 1.0x
-      - 🇰🇷 V1-韩国AWS 04 AGA加速 1.0x
       - 🇰🇷 V1-韩国AWS 05 AGA加速 1.0x
+      - 🇰🇷 V1-韩国AWS 06 AGA加速 1.0x
+      - 🇰🇷 V1-韩国AWS 07 AGA加速 1.0x
       - 🇰🇷 V1-韩国AWS 08 AGA加速 1.0x
       - 🇰🇷 V1-韩国AWS 10 AGA加速 1.0x
       - 🇰🇷 V1-韩国AWS 11 AGA加速 1.0x
-      - 🇰🇷 V1-韩国AWS 12 AGA加速 1.0x
       - 🇰🇷 V1-韩国AWS 13 AGA加速 1.0x
-      - 🇰🇷 V1-韩国AWS 14 AGA加速 1.0x
       - 🇰🇷 V1-韩国AWS 15 AGA加速 1.0x
       - 🇰🇷 V1-韩国AWS 16 AGA加速 1.0x
-      - 🇭🇰 V1-香港AWS 09 AGA加速 1.0x
-      - 🇭🇰 V1-香港AWS 12 AGA加速 1.0x
-      - 🇭🇰 V1-香港AWS 13 AGA加速 1.0x
-      - 🇭🇰 V1-香港AWS 14 AGA加速 1.0x
-      - 🇭🇰 V1-香港AWS 16 AGA加速 1.0x
       - 🇷🇺 俄罗斯-隧道中转 - 10692 单端口
       - 🇮🇳 印度 孟买-来点玛莎拉 - 10693 单端口
       - 🇸🇬 新加坡AGA 魔戒.com - 23411 单端口
@@ -1128,10 +1221,6 @@ proxy-groups:
       - 🇹🇼 22
       - 🇹🇼 23
       - 🇹🇼 24
-      - 🇺🇲 BGP美国7
-      - 🇺🇲 BGP美国8
-      - 🇺🇲 BGP美国9
-      - 🇭🇰 香港AWS1-电信联通
       - 🇨🇦 [电信]加拿大 01
       - 🇮🇳 [电信]印度 01
       - 🇩🇪 [电信]德国 01
@@ -1139,7 +1228,6 @@ proxy-groups:
       - 🇸🇬 [电信]新加坡 02
       - 🇸🇬 [电信]新加坡 03
       - 🇸🇬 [电信]新加坡 04
-      - 🇯🇵 [电信]日本 01
       - 🇺🇲 [电信]美国 01
       - 🇺🇲 [电信]美国 02
       - 🇺🇲 [电信]美国 03
@@ -1151,8 +1239,6 @@ proxy-groups:
       - 🇳🇱 [电信]荷兰 02
       - 🇰🇷 [电信]韩国 01
       - 🇭🇰 [电信]香港 01
-      - 🇭🇰 [电信]香港 02
-      - 🇭🇰 [电信]香港 03
       - 🇨🇦 [联通]加拿大 01
       - 🇮🇳 [联通]印度 01
       - 🇩🇪 [联通]德国 01
@@ -1160,7 +1246,6 @@ proxy-groups:
       - 🇸🇬 [联通]新加坡 02
       - 🇸🇬 [联通]新加坡 03
       - 🇸🇬 [联通]新加坡 04
-      - 🇯🇵 [联通]日本 01
       - 🇺🇲 [联通]美国 01
       - 🇺🇲 [联通]美国 02
       - 🇺🇲 [联通]美国 03
@@ -1172,55 +1257,78 @@ proxy-groups:
       - 🇳🇱 [联通]荷兰 02
       - 🇰🇷 [联通]韩国 01
       - 🇭🇰 [联通]香港 01
-      - 🇭🇰 [联通]香港 02
       - 🇨🇳 台湾01直连
-      - 🇭🇰 粤港直连ULTRA
-      - 🇭🇰 直连苏港ULTRA
-      - 🇿🇦 移动中转南非ULTTA
-      - 🇨🇳 移动优化粤台
-      - 🇹🇷 粤美优化ULTRA
-      - 🇺🇲 移动粤美优化
-      - 🇰🇷 移动粤韩优化
-      - 🇰🇷 移动粤韩优化2
-      - 🇯🇵 移动苏日优化1
-      - 🇯🇵 移动苏日优化2
-      - 🇨🇳 台湾原生  | 广东中继 | Netflix&动画疯
-      - 🇨🇳 台湾原生 02 | 广东中继 | Netflix&动画疯
-      - 🇸🇬 新加坡 02 | 广东中继
-      - 🇸🇬 新加坡原生 01 | 广东中继 | Netflix
-      - 🇺🇲 美国01 | 广东中继
-      - 🇭🇰 香港01 | 广东中继
-      - 🇭🇰 香港02 | 广东中继
-      - 🇭🇰 香港05 | 电信直连 | AGA专线 | x0.3
-      - 🇭🇰 香港06 | 电信直连 | AGA专线 | x0.3
-      - 🇭🇰 香港07 | 广东中继
-      - 🇭🇰 香港08 | 广东中继
-      - 🇸🇬 V1-新加坡AWS 03 AGA加速 1.0x
-      - 🇸🇬 V1-新加坡AWS 06 AGA加速 1.0x
-      - 🇯🇵 V1-日本AWS 06 AGA加速 1.0x
+      - 🇭🇰 ⒈V2RAY 联通-中转-香港
+      - 🇸🇬 ⒉V2RAY 上海CN2-中转-新加坡
+      - 🇯🇵 ⒊V2RAY 电信-中转-日本
+      - 🇸🇬 ⒋V2RAY 广移-中转-新加坡
+      - 🇯🇵 ⒌V2RAY 上海-中转-日本
+      - 🇯🇵 ⒍V2RAY 广移-中转-日本
+      - 🇭🇰 ⒎V2RAY 广移-中转-香港
+      - 🇸🇬 ⒏V2RAY 联通-中转-新加坡
+      - 🇨🇳 ⒐V2RAY 上海CN2-中转-台湾Hinet-原生IP|Netflix
+      - 🇭🇰 ⒑V2RAY 上海CN2-中转-香港
+      - 🇨🇳 ⒒V2RAY 广移-中转-台湾Hinet-原生IP|Netflix
+      - 🇭🇰 vip-1香港1
+      - 🇭🇰 vip-1香港10
+      - 🇭🇰 vip-1香港9
+      - 🇭🇰 vip-2香港2
+      - 🇭🇰 vip-3香港3
+      - 🇸🇬 vip-5新加坡
+      - 🇸🇬 vip-6新加坡
+      - 🇸🇬 vip-7新加坡
+      - 🇸🇬 vip-8新加坡
+      - 🇨🇦 vip-加拿大1
+      - 🇨🇳 vip-台湾1解锁奈飞
+      - 🇨🇳 vip-台湾3解锁奈飞
+      - 🇨🇳 vip-台湾4解锁奈飞
+      - 🇨🇳 vip-台湾5解锁奈飞
+      - 🇨🇳 vip-台湾7解锁奈飞
+      - 🇸🇬 vip-新加坡1
+      - 🇸🇬 vip-新加坡2
+      - 🇸🇬 vip-新加坡3
+      - 🇸🇬 vip-新加坡4
+      - 🇯🇵 vip-日本1
+      - 🇯🇵 vip-日本10
+      - 🇯🇵 vip-日本11
+      - 🇯🇵 vip-日本12
+      - 🇯🇵 vip-日本2
+      - 🇯🇵 vip-日本3
+      - 🇯🇵 vip-日本4
+      - 🇯🇵 vip-日本5
+      - 🇯🇵 vip-日本8
+      - 🇺🇲 vip-美国1
+      - 🇬🇧 vip-英国1
+      - 🇰🇷 vip-韩国1
+      - 🇰🇷 vip-韩国2
+      - 🇭🇰 vip-香港11
+      - 🇭🇰 vip-香港4
+      - 🇭🇰 vip-香港5
+      - 🇭🇰 vip-香港6
+      - 🇭🇰 vip-香港7
+      - 🇭🇰 vip-香港8
+      - 🇸🇬 V1-新加坡AWS 02 AGA加速 1.0x
+      - 🇸🇬 V1-新加坡AWS 07 AGA加速 1.0x
+      - 🇸🇬 V1-新加坡AWS 08 AGA加速 1.0x
+      - 🇯🇵 V1-日本AWS 01 AGA加速 1.0x
       - 🇯🇵 V1-日本AWS 09 AGA加速 1.0x
+      - 🇯🇵 V1-日本AWS 11 AGA加速 1.0x
       - 🇯🇵 V1-日本AWS 12 AGA加速 1.0x
-      - 🇯🇵 V1-日本AWS 13 AGA加速 1.0x
       - 🇯🇵 V1-日本AWS 14 AGA加速 1.0x
       - 🇯🇵 V1-日本AWS 15 AGA加速 1.0x
       - 🇯🇵 V1-日本AWS 16 AGA加速 1.0x
+      - 🇰🇷 V1-韩国AWS 01 AGA加速 1.0x
       - 🇰🇷 V1-韩国AWS 02 AGA加速 1.0x
       - 🇰🇷 V1-韩国AWS 03 AGA加速 1.0x
-      - 🇰🇷 V1-韩国AWS 04 AGA加速 1.0x
       - 🇰🇷 V1-韩国AWS 05 AGA加速 1.0x
+      - 🇰🇷 V1-韩国AWS 06 AGA加速 1.0x
+      - 🇰🇷 V1-韩国AWS 07 AGA加速 1.0x
       - 🇰🇷 V1-韩国AWS 08 AGA加速 1.0x
       - 🇰🇷 V1-韩国AWS 10 AGA加速 1.0x
       - 🇰🇷 V1-韩国AWS 11 AGA加速 1.0x
-      - 🇰🇷 V1-韩国AWS 12 AGA加速 1.0x
       - 🇰🇷 V1-韩国AWS 13 AGA加速 1.0x
-      - 🇰🇷 V1-韩国AWS 14 AGA加速 1.0x
       - 🇰🇷 V1-韩国AWS 15 AGA加速 1.0x
       - 🇰🇷 V1-韩国AWS 16 AGA加速 1.0x
-      - 🇭🇰 V1-香港AWS 09 AGA加速 1.0x
-      - 🇭🇰 V1-香港AWS 12 AGA加速 1.0x
-      - 🇭🇰 V1-香港AWS 13 AGA加速 1.0x
-      - 🇭🇰 V1-香港AWS 14 AGA加速 1.0x
-      - 🇭🇰 V1-香港AWS 16 AGA加速 1.0x
       - 🇷🇺 俄罗斯-隧道中转 - 10692 单端口
       - 🇮🇳 印度 孟买-来点玛莎拉 - 10693 单端口
       - 🇸🇬 新加坡AGA 魔戒.com - 23411 单端口
@@ -1309,10 +1417,6 @@ proxy-groups:
       - 🇹🇼 22
       - 🇹🇼 23
       - 🇹🇼 24
-      - 🇺🇲 BGP美国7
-      - 🇺🇲 BGP美国8
-      - 🇺🇲 BGP美国9
-      - 🇭🇰 香港AWS1-电信联通
       - 🇨🇦 [电信]加拿大 01
       - 🇮🇳 [电信]印度 01
       - 🇩🇪 [电信]德国 01
@@ -1320,7 +1424,6 @@ proxy-groups:
       - 🇸🇬 [电信]新加坡 02
       - 🇸🇬 [电信]新加坡 03
       - 🇸🇬 [电信]新加坡 04
-      - 🇯🇵 [电信]日本 01
       - 🇺🇲 [电信]美国 01
       - 🇺🇲 [电信]美国 02
       - 🇺🇲 [电信]美国 03
@@ -1332,8 +1435,6 @@ proxy-groups:
       - 🇳🇱 [电信]荷兰 02
       - 🇰🇷 [电信]韩国 01
       - 🇭🇰 [电信]香港 01
-      - 🇭🇰 [电信]香港 02
-      - 🇭🇰 [电信]香港 03
       - 🇨🇦 [联通]加拿大 01
       - 🇮🇳 [联通]印度 01
       - 🇩🇪 [联通]德国 01
@@ -1341,7 +1442,6 @@ proxy-groups:
       - 🇸🇬 [联通]新加坡 02
       - 🇸🇬 [联通]新加坡 03
       - 🇸🇬 [联通]新加坡 04
-      - 🇯🇵 [联通]日本 01
       - 🇺🇲 [联通]美国 01
       - 🇺🇲 [联通]美国 02
       - 🇺🇲 [联通]美国 03
@@ -1353,55 +1453,78 @@ proxy-groups:
       - 🇳🇱 [联通]荷兰 02
       - 🇰🇷 [联通]韩国 01
       - 🇭🇰 [联通]香港 01
-      - 🇭🇰 [联通]香港 02
       - 🇨🇳 台湾01直连
-      - 🇭🇰 粤港直连ULTRA
-      - 🇭🇰 直连苏港ULTRA
-      - 🇿🇦 移动中转南非ULTTA
-      - 🇨🇳 移动优化粤台
-      - 🇹🇷 粤美优化ULTRA
-      - 🇺🇲 移动粤美优化
-      - 🇰🇷 移动粤韩优化
-      - 🇰🇷 移动粤韩优化2
-      - 🇯🇵 移动苏日优化1
-      - 🇯🇵 移动苏日优化2
-      - 🇨🇳 台湾原生  | 广东中继 | Netflix&动画疯
-      - 🇨🇳 台湾原生 02 | 广东中继 | Netflix&动画疯
-      - 🇸🇬 新加坡 02 | 广东中继
-      - 🇸🇬 新加坡原生 01 | 广东中继 | Netflix
-      - 🇺🇲 美国01 | 广东中继
-      - 🇭🇰 香港01 | 广东中继
-      - 🇭🇰 香港02 | 广东中继
-      - 🇭🇰 香港05 | 电信直连 | AGA专线 | x0.3
-      - 🇭🇰 香港06 | 电信直连 | AGA专线 | x0.3
-      - 🇭🇰 香港07 | 广东中继
-      - 🇭🇰 香港08 | 广东中继
-      - 🇸🇬 V1-新加坡AWS 03 AGA加速 1.0x
-      - 🇸🇬 V1-新加坡AWS 06 AGA加速 1.0x
-      - 🇯🇵 V1-日本AWS 06 AGA加速 1.0x
+      - 🇭🇰 ⒈V2RAY 联通-中转-香港
+      - 🇸🇬 ⒉V2RAY 上海CN2-中转-新加坡
+      - 🇯🇵 ⒊V2RAY 电信-中转-日本
+      - 🇸🇬 ⒋V2RAY 广移-中转-新加坡
+      - 🇯🇵 ⒌V2RAY 上海-中转-日本
+      - 🇯🇵 ⒍V2RAY 广移-中转-日本
+      - 🇭🇰 ⒎V2RAY 广移-中转-香港
+      - 🇸🇬 ⒏V2RAY 联通-中转-新加坡
+      - 🇨🇳 ⒐V2RAY 上海CN2-中转-台湾Hinet-原生IP|Netflix
+      - 🇭🇰 ⒑V2RAY 上海CN2-中转-香港
+      - 🇨🇳 ⒒V2RAY 广移-中转-台湾Hinet-原生IP|Netflix
+      - 🇭🇰 vip-1香港1
+      - 🇭🇰 vip-1香港10
+      - 🇭🇰 vip-1香港9
+      - 🇭🇰 vip-2香港2
+      - 🇭🇰 vip-3香港3
+      - 🇸🇬 vip-5新加坡
+      - 🇸🇬 vip-6新加坡
+      - 🇸🇬 vip-7新加坡
+      - 🇸🇬 vip-8新加坡
+      - 🇨🇦 vip-加拿大1
+      - 🇨🇳 vip-台湾1解锁奈飞
+      - 🇨🇳 vip-台湾3解锁奈飞
+      - 🇨🇳 vip-台湾4解锁奈飞
+      - 🇨🇳 vip-台湾5解锁奈飞
+      - 🇨🇳 vip-台湾7解锁奈飞
+      - 🇸🇬 vip-新加坡1
+      - 🇸🇬 vip-新加坡2
+      - 🇸🇬 vip-新加坡3
+      - 🇸🇬 vip-新加坡4
+      - 🇯🇵 vip-日本1
+      - 🇯🇵 vip-日本10
+      - 🇯🇵 vip-日本11
+      - 🇯🇵 vip-日本12
+      - 🇯🇵 vip-日本2
+      - 🇯🇵 vip-日本3
+      - 🇯🇵 vip-日本4
+      - 🇯🇵 vip-日本5
+      - 🇯🇵 vip-日本8
+      - 🇺🇲 vip-美国1
+      - 🇬🇧 vip-英国1
+      - 🇰🇷 vip-韩国1
+      - 🇰🇷 vip-韩国2
+      - 🇭🇰 vip-香港11
+      - 🇭🇰 vip-香港4
+      - 🇭🇰 vip-香港5
+      - 🇭🇰 vip-香港6
+      - 🇭🇰 vip-香港7
+      - 🇭🇰 vip-香港8
+      - 🇸🇬 V1-新加坡AWS 02 AGA加速 1.0x
+      - 🇸🇬 V1-新加坡AWS 07 AGA加速 1.0x
+      - 🇸🇬 V1-新加坡AWS 08 AGA加速 1.0x
+      - 🇯🇵 V1-日本AWS 01 AGA加速 1.0x
       - 🇯🇵 V1-日本AWS 09 AGA加速 1.0x
+      - 🇯🇵 V1-日本AWS 11 AGA加速 1.0x
       - 🇯🇵 V1-日本AWS 12 AGA加速 1.0x
-      - 🇯🇵 V1-日本AWS 13 AGA加速 1.0x
       - 🇯🇵 V1-日本AWS 14 AGA加速 1.0x
       - 🇯🇵 V1-日本AWS 15 AGA加速 1.0x
       - 🇯🇵 V1-日本AWS 16 AGA加速 1.0x
+      - 🇰🇷 V1-韩国AWS 01 AGA加速 1.0x
       - 🇰🇷 V1-韩国AWS 02 AGA加速 1.0x
       - 🇰🇷 V1-韩国AWS 03 AGA加速 1.0x
-      - 🇰🇷 V1-韩国AWS 04 AGA加速 1.0x
       - 🇰🇷 V1-韩国AWS 05 AGA加速 1.0x
+      - 🇰🇷 V1-韩国AWS 06 AGA加速 1.0x
+      - 🇰🇷 V1-韩国AWS 07 AGA加速 1.0x
       - 🇰🇷 V1-韩国AWS 08 AGA加速 1.0x
       - 🇰🇷 V1-韩国AWS 10 AGA加速 1.0x
       - 🇰🇷 V1-韩国AWS 11 AGA加速 1.0x
-      - 🇰🇷 V1-韩国AWS 12 AGA加速 1.0x
       - 🇰🇷 V1-韩国AWS 13 AGA加速 1.0x
-      - 🇰🇷 V1-韩国AWS 14 AGA加速 1.0x
       - 🇰🇷 V1-韩国AWS 15 AGA加速 1.0x
       - 🇰🇷 V1-韩国AWS 16 AGA加速 1.0x
-      - 🇭🇰 V1-香港AWS 09 AGA加速 1.0x
-      - 🇭🇰 V1-香港AWS 12 AGA加速 1.0x
-      - 🇭🇰 V1-香港AWS 13 AGA加速 1.0x
-      - 🇭🇰 V1-香港AWS 14 AGA加速 1.0x
-      - 🇭🇰 V1-香港AWS 16 AGA加速 1.0x
       - 🇷🇺 俄罗斯-隧道中转 - 10692 单端口
       - 🇮🇳 印度 孟买-来点玛莎拉 - 10693 单端口
       - 🇸🇬 新加坡AGA 魔戒.com - 23411 单端口
